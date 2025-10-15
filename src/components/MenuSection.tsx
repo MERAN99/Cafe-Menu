@@ -30,7 +30,7 @@ const MenuSection = () => {
 
   // Fetch menu.json from public folder
   useEffect(() => {
-    fetch("/menu.json")
+    fetch("/src/data/menu.json")
       .then((res) => res.json())
       .then((data) => {
         if (!data.categories || !data.products) {
