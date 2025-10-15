@@ -1,13 +1,6 @@
 ﻿{
-  "updatedAt": "2025-10-15T23:28:43.471Z",
+  "updatedAt": "2025-10-15T23:48:10.429Z",
   "categories": [
-    {
-      "_id": "68f02b62ab4ddd23cc397623",
-      "name": "Cold Drinks",
-      "createdAt": "2025-10-15T23:16:50.089Z",
-      "updatedAt": "2025-10-15T23:16:50.089Z",
-      "__v": 0
-    },
     {
       "_id": "68f02b6aab4ddd23cc39762a",
       "name": "Moktel",
@@ -56,23 +49,6 @@
       "isAvailable": true,
       "createdAt": "2025-10-15T23:19:01.078Z",
       "updatedAt": "2025-10-15T23:19:01.078Z",
-      "__v": 0
-    },
-    {
-      "_id": "68f02c41ab4ddd23cc397644",
-      "name": "Pepsi",
-      "price": 500,
-      "productCost": 250,
-      "image": "/uploads/product-1760570433746-724607257.png",
-      "description": "!!!!",
-      "category": {
-        "_id": "68f02b62ab4ddd23cc397623",
-        "name": "Cold Drinks"
-      },
-      "department": "bar",
-      "isAvailable": true,
-      "createdAt": "2025-10-15T23:20:33.775Z",
-      "updatedAt": "2025-10-15T23:20:33.775Z",
       "__v": 0
     },
     {
