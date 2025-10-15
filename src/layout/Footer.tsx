@@ -30,11 +30,15 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* QR Code Placeholder */}
+          {/* QR Code */}
           <div>
             <h3 className="text-xl font-bold mb-4 text-amber-400 font-mono">Order Online</h3>
-            <div className="bg-gray-700 border-2 border-dashed border-gray-600 rounded-lg w-32 h-32 flex items-center justify-center">
-              <span className="text-sm text-center">QR CODE</span>
+            <div className="bg-gray-700 border-2 border-gray-600 rounded-lg w-32 h-32 flex items-center justify-center overflow-hidden">
+              <img
+                src="/QRCode/frame.png"
+                alt="QR Code for online ordering"
+                className="w-full h-full object-cover"
+              />
             </div>
             <p className="mt-2 text-gray-300">Scan to order online</p>
           </div>
