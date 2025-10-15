@@ -174,7 +174,7 @@ const MenuSection = () => {
                             isEven ? "" : "order-1 mr-4"
                           }`}
                         >
-                          ${product.price?.toFixed(2) ?? "N/A"}
+                          {product.price?.toFixed(2) ?? "N/A"} IQD
                         </span>
                       </div>
                       {product.description && (
