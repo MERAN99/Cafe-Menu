@@ -1,67 +1,95 @@
 ﻿{
-  "updatedAt": "2025-10-15T22:57:06.633Z",
+  "updatedAt": "2025-10-15T23:22:01.553Z",
   "categories": [
     {
-      "_id": "68ee7dab7cfe02ba5c6c8a43",
-      "name": "ehgthe",
-      "createdAt": "2025-10-14T16:43:23.276Z",
-      "updatedAt": "2025-10-14T16:43:23.276Z",
+      "_id": "68f02b62ab4ddd23cc397623",
+      "name": "Cold Drinks",
+      "createdAt": "2025-10-15T23:16:50.089Z",
+      "updatedAt": "2025-10-15T23:16:50.089Z",
       "__v": 0
     },
     {
-      "_id": "68ee7f0b7cfe02ba5c6c8aef",
-      "name": "tt",
-      "createdAt": "2025-10-14T16:49:15.010Z",
-      "updatedAt": "2025-10-14T16:49:15.010Z",
+      "_id": "68f02b6aab4ddd23cc39762a",
+      "name": "Moktel",
+      "createdAt": "2025-10-15T23:16:58.023Z",
+      "updatedAt": "2025-10-15T23:16:58.023Z",
       "__v": 0
     },
     {
-      "_id": "68ee7f0d7cfe02ba5c6c8af6",
-      "name": "jtuj",
-      "createdAt": "2025-10-14T16:49:17.400Z",
-      "updatedAt": "2025-10-14T16:49:17.400Z",
-      "__v": 0
-    },
-    {
-      "_id": "68ee81027cfe02ba5c6c8b51",
-      "name": "pppp",
-      "createdAt": "2025-10-14T16:57:38.144Z",
-      "updatedAt": "2025-10-14T16:57:38.144Z",
+      "_id": "68f02b71ab4ddd23cc397631",
+      "name": "Coffe",
+      "createdAt": "2025-10-15T23:17:05.016Z",
+      "updatedAt": "2025-10-15T23:17:05.016Z",
       "__v": 0
     }
   ],
   "products": [
     {
-      "_id": "68ee84d37cfe02ba5c6c8bf5",
-      "name": "Coffe",
-      "price": 3000,
-      "productCost": 2000,
-      "image": "/uploads/product-1760462035294-35216148.png",
+      "_id": "68f02bc4ab4ddd23cc397638",
+      "name": "Pinaple",
+      "price": 2500,
+      "productCost": 1000,
+      "image": "/uploads/product-1760570308458-526276632.png",
+      "description": "Pinaple",
       "category": {
-        "_id": "68ee81027cfe02ba5c6c8b51",
-        "name": "pppp"
+        "_id": "68f02b6aab4ddd23cc39762a",
+        "name": "Moktel"
       },
       "department": "bar",
       "isAvailable": true,
-      "createdAt": "2025-10-14T17:13:55.322Z",
-      "updatedAt": "2025-10-14T17:13:55.322Z",
+      "createdAt": "2025-10-15T23:18:28.660Z",
+      "updatedAt": "2025-10-15T23:18:28.660Z",
       "__v": 0
     },
     {
-      "_id": "68ee874d7cfe02ba5c6c8c87",
-      "name": "water",
-      "price": 250,
-      "productCost": 150,
-      "image": "/uploads/product-1760462668854-767855242.jpg",
-      "description": "kkkkkk",
+      "_id": "68f02be5ab4ddd23cc39763e",
+      "name": "esspresso",
+      "price": 3000,
+      "productCost": 1500,
+      "image": "/uploads/product-1760570341050-14216749.png",
+      "description": "essss",
       "category": {
-        "_id": "68ee7f0b7cfe02ba5c6c8aef",
-        "name": "tt"
+        "_id": "68f02b71ab4ddd23cc397631",
+        "name": "Coffe"
       },
       "department": "bar",
       "isAvailable": true,
-      "createdAt": "2025-10-14T17:24:29.045Z",
-      "updatedAt": "2025-10-14T17:24:29.045Z",
+      "createdAt": "2025-10-15T23:19:01.078Z",
+      "updatedAt": "2025-10-15T23:19:01.078Z",
+      "__v": 0
+    },
+    {
+      "_id": "68f02c41ab4ddd23cc397644",
+      "name": "Pepsi",
+      "price": 500,
+      "productCost": 250,
+      "image": "/uploads/product-1760570433746-724607257.png",
+      "description": "!!!!",
+      "category": {
+        "_id": "68f02b62ab4ddd23cc397623",
+        "name": "Cold Drinks"
+      },
+      "department": "bar",
+      "isAvailable": true,
+      "createdAt": "2025-10-15T23:20:33.775Z",
+      "updatedAt": "2025-10-15T23:20:33.775Z",
+      "__v": 0
+    },
+    {
+      "_id": "68f02c62ab4ddd23cc39764a",
+      "name": "Amrecano",
+      "price": 2500,
+      "productCost": 1500,
+      "image": "/uploads/product-1760570466833-166601129.png",
+      "description": "!!!",
+      "category": {
+        "_id": "68f02b71ab4ddd23cc397631",
+        "name": "Coffe"
+      },
+      "department": "bar",
+      "isAvailable": true,
+      "createdAt": "2025-10-15T23:21:06.856Z",
+      "updatedAt": "2025-10-15T23:21:06.856Z",
       "__v": 0
     }
   ]
