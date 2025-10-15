@@ -7,10 +7,10 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-bold mb-4 text-amber-400 font-mono">Contact Us</h3>
             <address className="not-italic text-gray-300">
-              <p className="mb-2">123 Coffee Street</p>
-              <p className="mb-2">Café City, CA 90210</p>
+              <p className="mb-2">Marena Street</p>
+              <p className="mb-2">Café Way, Kelar</p>
               <p className="mb-2">Phone: (555) 123-4567</p>
-              <p>Email: info@brewandbean.com</p>
+            
             </address>
           </div>
 
@@ -33,11 +33,11 @@ const Footer = () => {
           {/* QR Code */}
           <div>
             <h3 className="text-xl font-bold mb-4 text-amber-400 font-mono">Order Online</h3>
-            <div className="bg-gray-700 border-2 border-gray-600 rounded-lg w-32 h-32 flex items-center justify-center overflow-hidden">
+            <div className=" border-2 border-gray-600 rounded-lg w-32 h-32 flex items-center justify-center overflow-hidden">
               <img
                 src="/QRCode/frame.png"
                 alt="QR Code for online ordering"
-                className="w-full h-full object-cover"
+                className="w-full h-full object-contain"
               />
             </div>
             <p className="mt-2 text-gray-300">Scan to order online</p>
