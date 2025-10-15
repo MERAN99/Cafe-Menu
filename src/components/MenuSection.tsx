@@ -7,6 +7,11 @@ interface Product {
   description?: string;
   badge?: string;
   categoryId?: string;
+  image: string;
+  category: {
+    _id: string;
+    name: string;
+  };
 }
 
 interface Category {
@@ -36,7 +41,7 @@ const MenuSection = () => {
         const structured = data.categories.map((cat: Category) => ({
           title: cat.name,
           products: data.products.filter(
-            (p: Product) => p.categoryId === cat._id
+            (p: Product) => p.category._id === cat._id
           ),
         }));
 
@@ -138,13 +143,18 @@ const MenuSection = () => {
                       isEven ? "flex-row" : "flex-row-reverse"
                     }`}
                   >
-                    {/* Product Image Placeholder */}
-                    <div className="flex-shrink-0 w-32 h-32 bg-gray-700 rounded-2xl flex items-center justify-center text-6xl shadow-lg border border-gray-600">
-                      {section.title.includes("Cold") && "🥤"}
-                      {section.title.includes("Hot") && "☕"}
-                      {section.title.includes("Dessert") && "🍰"}
-                      {section.title.includes("Snack") && "🥖"}
-                      {!section.title.match(/Cold|Hot|Dessert|Snack/) && "🍽️"}
+                    {/* Product Image */}
+                    <div className="flex-shrink-0 w-32 h-32 rounded-2xl overflow-hidden shadow-lg border border-gray-60">
+                      <img
+                        src={product.image}
+                        alt={product.name}
+                        className="w-full h-full object-cover"
+                        onError={(e) => {
+                          const target = e.target as HTMLImageElement;
+                          target.onerror = null;
+                          target.src = "/vite.svg"; // fallback image
+                        }}
+                      />
                     </div>
 
                     {/* Product Details */}
