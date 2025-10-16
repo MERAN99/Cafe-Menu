@@ -1,5 +1,5 @@
-{
-  "updatedAt": "2025-10-16T23:00:35.943Z",
+﻿{
+  "updatedAt": "2025-10-16T23:49:06.486Z",
   "categories": [
     {
       "_id": "68f02b6aab4ddd23cc39762a",
@@ -21,7 +21,7 @@
       "_id": "68f17629537c50f95b5638fa",
       "name": "ئێسپرێسۆ",
       "price": 2500,
-      "productCost": 1000,
+      "productCost": 100,
       "image": "/uploads/product-1760654889434-84998015.png",
       "category": {
         "_id": "68f02b71ab4ddd23cc397631",
@@ -52,9 +52,9 @@
     {
       "_id": "68f1767e537c50f95b563906",
       "name": "لاتێ",
-      "price": 3000,
+      "price": 300,
       "productCost": 1500,
-      "image": "/uploads/product-1760654974255-235723353.png",
+      "image": "/uploads/product-176065497425-235723353.png",
       "category": {
         "_id": "68f02b71ab4ddd23cc397631",
         "name": "Coffe"

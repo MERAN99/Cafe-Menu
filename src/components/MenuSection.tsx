@@ -30,24 +30,21 @@ const MenuSection = () => {
 
   // Fetch menu.json from public folder
   useEffect(() => {
-    fetch("/data/menu.json")
-      .then((res) => res.json())
-      .then((data) => {
-        if (!data.categories || !data.products) {
-          console.error("Invalid JSON format:", data);
-          return;
-        }
+     fetch("/data/menu.json")
+    .then((res) => res.json())
+    .then((data) => {
+      if (!data.categories || !data.products) return;
 
-        const structured = data.categories.map((cat: Category) => ({
-          title: cat.name,
-          products: data.products.filter(
-            (p: Product) => p.category._id === cat._id
-          ),
-        }));
+      const structured = data.categories.map((cat: Category) => ({
+        title: cat.name,
+        products: data.products.filter(
+          (p: Product) => p.category._id === cat._id
+        ),
+      }));
 
-        setMenuData(structured);
-      })
-      .catch((err) => console.error("Error loading menu.json:", err));
+      setMenuData(structured);
+    })
+    .catch((err) => console.error("Error loading menu.json:", err));
   }, []);
 
   const scrollToSection = (title: string) => {
@@ -164,17 +161,20 @@ const MenuSection = () => {
                     {/* Product Details */}
                     <div
                       className={`flex-1 ${isEven ? "text-left" : "text-right"}`}
+                      dir="rtl"
+                      lang="ku"
                       style={{
                         direction: 'rtl',
                         fontFamily: "'Tajawal', 'Amiri', 'Noto Sans Arabic', sans-serif"
                       }}
                     >
+                      
                       <div className="flex items-center justify-between mb-3">
                         <h4
                           className={`text-lg md:text-2xl font-bold text-white ${
                             isEven ? "" : "order-2"
                           }`}
-                          style={{ fontFamily: "'Tajawal', 'Amiri', 'Noto Sans Arabic', sans-serif" }}
+                          style={{ fontFamily: "'Tajawal', 'Amiri', 'Noto Sans Arabic', sans-serif"  }}
                         >
                           {product.name}
                         </h4>

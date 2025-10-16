@@ -1,0 +1,78 @@
+const fs = require('fs');
+
+// Sample menu data with proper UTF-8 encoding
+const menu = {
+  "updatedAt": new Date().toISOString(),
+  "categories": [
+    {
+      "_id": "68f02b6aab4ddd23cc39762a",
+      "name": "Moktel",
+      "createdAt": "2025-10-15T23:16:58.023Z",
+      "updatedAt": "2025-10-15T23:16:58.023Z",
+      "__v": 0
+    },
+    {
+      "_id": "68f02b71ab4ddd23cc397631",
+      "name": "Coffe",
+      "createdAt": "2025-10-15T23:17:05.016Z",
+      "updatedAt": "2025-10-15T23:17:05.016Z",
+      "__v": 0
+    }
+  ],
+  "products": [
+    {
+      "_id": "68f17629537c50f95b5638fa",
+      "name": "ئێسپرێسۆ",
+      "price": 2500,
+      "productCost": 100,
+      "image": "/uploads/product-1760654889434-84998015.png",
+      "category": {
+        "_id": "68f02b71ab4ddd23cc397631",
+        "name": "Coffe"
+      },
+      "department": "bar",
+      "isAvailable": true,
+      "createdAt": "2025-10-16T22:48:09.468Z",
+      "updatedAt": "2025-10-16T22:48:09.468Z",
+      "__v": 0
+    },
+    {
+      "_id": "68f1765c537c50f95b563900",
+      "name": "ئەنەناس",
+      "price": 2500,
+      "productCost": 1500,
+      "image": "/uploads/product-1760654940284-891257483.png",
+      "category": {
+        "_id": "68f02b6aab4ddd23cc39762a",
+        "name": "Moktel"
+      },
+      "department": "bar",
+      "isAvailable": true,
+      "createdAt": "2025-10-16T22:49:00.313Z",
+      "updatedAt": "2025-10-16T22:49:00.313Z",
+      "__v": 0
+    },
+    {
+      "_id": "68f1767e537c50f95b563906",
+      "name": "لاتێ",
+      "price": 300,
+      "productCost": 1500,
+      "image": "/uploads/product-176065497425-235723353.png",
+      "category": {
+        "_id": "68f02b71ab4ddd23cc397631",
+        "name": "Coffe"
+      },
+      "department": "bar",
+      "isAvailable": true,
+      "createdAt": "2025-10-16T22:49:34.280Z",
+      "updatedAt": "2025-10-16T22:49:34.280Z",
+      "__v": 0
+    }
+  ]
+};
+
+// Add UTF-8 BOM to force proper encoding recognition
+const BOM = '\uFEFF';
+fs.writeFileSync("menu.json", BOM + JSON.stringify(menu, null, 2), 'utf8');
+
+console.log('Menu data exported with UTF-8 BOM');
