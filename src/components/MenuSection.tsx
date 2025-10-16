@@ -130,6 +130,8 @@ const MenuSection = () => {
             </h3>
 
             {section.products.length === 0 && (
+
+              
               <p className="text-gray-400 text-center italic">
                 No products available in this category.
               </p>
