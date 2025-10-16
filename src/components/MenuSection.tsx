@@ -30,21 +30,24 @@ const MenuSection = () => {
 
   // Fetch menu.json from public folder
   useEffect(() => {
-     fetch("/data/menu.json")
-    .then((res) => res.json())
-    .then((data) => {
-      if (!data.categories || !data.products) return;
+    fetch("/data/menu.json")
+      .then((res) => res.json())
+      .then((data) => {
+        if (!data.categories || !data.products) {
+          console.error("Invalid JSON format:", data);
+          return;
+        }
 
-      const structured = data.categories.map((cat: Category) => ({
-        title: cat.name,
-        products: data.products.filter(
-          (p: Product) => p.category._id === cat._id
-        ),
-      }));
+        const structured = data.categories.map((cat: Category) => ({
+          title: cat.name,
+          products: data.products.filter(
+            (p: Product) => p.category._id === cat._id
+          ),
+        }));
 
-      setMenuData(structured);
-    })
-    .catch((err) => console.error("Error loading menu.json:", err));
+        setMenuData(structured);
+      })
+      .catch((err) => console.error("Error loading menu.json:", err));
   }, []);
 
   const scrollToSection = (title: string) => {
@@ -117,8 +120,8 @@ const MenuSection = () => {
             id={section.title.toLowerCase().replace(/\s+/g, "-")}
             className={`rounded-2xl md:rounded-3xl p-4 md:p-8 shadow-2xl border border-gray-700 relative overflow-hidden ${
               sectionIndex % 2 === 0
-                ? "bg-gradient-to-r from-gray-800 to-gray-900"
-                : "bg-gradient-to-l from-gray-800 to-gray-900"
+                ? "bg-gradient-to-r from-gray-80 to-gray-900"
+                : "bg-gradient-to-l from-gray-80 to-gray-900"
             }`}
           >
             <h3 className="text-2xl md:text-3xl font-bold text-amber-400 mb-6 md:mb-12 text-center font-mono relative z-10"
@@ -161,20 +164,17 @@ const MenuSection = () => {
                     {/* Product Details */}
                     <div
                       className={`flex-1 ${isEven ? "text-left" : "text-right"}`}
-                      dir="rtl"
-                      lang="ku"
                       style={{
                         direction: 'rtl',
                         fontFamily: "'Tajawal', 'Amiri', 'Noto Sans Arabic', sans-serif"
                       }}
                     >
-                      
                       <div className="flex items-center justify-between mb-3">
                         <h4
                           className={`text-lg md:text-2xl font-bold text-white ${
                             isEven ? "" : "order-2"
                           }`}
-                          style={{ fontFamily: "'Tajawal', 'Amiri', 'Noto Sans Arabic', sans-serif"  }}
+                          style={{ fontFamily: "'Tajawal', 'Amiri', 'Noto Sans Arabic', sans-serif" }}
                         >
                           {product.name}
                         </h4>
@@ -187,7 +187,7 @@ const MenuSection = () => {
                         </span>
                       </div>
                       {product.description && (
-                        <p className="text-gray-300 mb-2 md:mb-4 text-sm md:text-lg"
+                        <p className="text-gray-30 mb-2 md:mb-4 text-sm md:text-lg"
                            style={{ fontFamily: "'Tajawal', 'Amiri', 'Noto Sans Arabic', sans-serif" }}>
                           {product.description}
                         </p>
@@ -220,7 +220,7 @@ const MenuSection = () => {
       {showScrollTop && (
         <button
           onClick={scrollToTop}
-          className="fixed bottom-6 right-6 bg-amber-600 text-black p-4 rounded-full shadow-lg hover:bg-amber-500 transition-all duration-300 z-50"
+          className="fixed bottom-6 right-6 bg-amber-60 text-black p-4 rounded-full shadow-lg hover:bg-amber-500 transition-all duration-300 z-50"
           aria-label="Scroll to top"
         >
           <svg
