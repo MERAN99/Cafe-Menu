@@ -29,7 +29,7 @@ const VideoSection = () => {
           x-webkit-airplay="allow" // For Safari iOS
           webkit-playsinline // For Safari iOS
         >
-          <source src="/Video/CafeWayVedio.mp4" type="video/mp4" />
+          <source src="/Video/MenuVideo.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
 

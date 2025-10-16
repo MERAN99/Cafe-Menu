@@ -72,7 +72,7 @@ const MenuSection = () => {
   return (
     <section
       id="menu"
-      className="py-16 px-4 max-w-7xl mx-auto relative overflow-hidden"
+      className="py-8 md:py-16 px-2 md:px-4 max-w-7xl mx-auto relative overflow-hidden"
     >
       {/* Decorative Background */}
       <div className="absolute inset-0 pointer-events-none opacity-15">
@@ -88,22 +88,23 @@ const MenuSection = () => {
       </div>
 
       {/* Header */}
-      <div className="text-center mb-16">
-        <h2 className="text-4xl md:text-5xl font-bold text-amber-400 mb-4 font-mono">
+      <div className="text-center mb-8 md:mb-16">
+        <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-amber-400 mb-2 md:mb-4 font-mono">
           Our Menu
         </h2>
-        <p className="text-lg text-gray-300 max-w-2xl mx-auto mb-8">
+        <p className="text-sm md:text-lg text-gray-300 max-w-2xl mx-auto mb-4 md:mb-8 px-4">
           Indulge in our exquisite selection of artisanal beverages and gourmet
           treats
         </p>
 
         {/* Tab Buttons */}
-        <div className="flex flex-wrap justify-center gap-4 mb-12">
+        <div className="flex flex-wrap justify-center gap-2 md:gap-4 mb-6 md:mb-12 px-2">
           {menuData.map((section) => (
             <button
               key={section.title}
               onClick={() => scrollToSection(section.title)}
               className="bg-gray-700 text-amber-400 px-6 py-3 rounded-full font-mono font-bold hover:bg-amber-600 hover:text-black transition-colors shadow-lg"
+              style={{ fontFamily: "'Noto Sans Arabic', sans-serif" }}
             >
               {section.title}
             </button>
@@ -112,18 +113,19 @@ const MenuSection = () => {
       </div>
 
       {/* Menu Sections */}
-      <div className="space-y-16">
+      <div className="space-y-8 md:space-y-16">
         {menuData.map((section, sectionIndex) => (
           <div
             key={sectionIndex}
             id={section.title.toLowerCase().replace(/\s+/g, "-")}
-            className={`rounded-3xl p-8 shadow-2xl border border-gray-700 relative overflow-hidden ${
+            className={`rounded-2xl md:rounded-3xl p-4 md:p-8 shadow-2xl border border-gray-700 relative overflow-hidden ${
               sectionIndex % 2 === 0
                 ? "bg-gradient-to-r from-gray-800 to-gray-900"
                 : "bg-gradient-to-l from-gray-800 to-gray-900"
             }`}
           >
-            <h3 className="text-3xl font-bold text-amber-400 mb-12 text-center font-mono relative z-10">
+            <h3 className="text-2xl md:text-3xl font-bold text-amber-400 mb-6 md:mb-12 text-center font-mono relative z-10"
+                style={{ fontFamily: "'Noto Sans Arabic', sans-serif" }}>
               {section.title}
             </h3>
 
@@ -133,18 +135,18 @@ const MenuSection = () => {
               </p>
             )}
 
-            <div className="space-y-8 relative z-10">
+            <div className="space-y-4 md:space-y-8 relative z-10">
               {section.products.map((product, productIndex) => {
                 const isEven = productIndex % 2 === 0;
                 return (
                   <div
                     key={product.id}
-                    className={`flex items-center gap-8 ${
+                    className={`flex items-center gap-4 md:gap-8 ${
                       isEven ? "flex-row" : "flex-row-reverse"
                     }`}
                   >
                     {/* Product Image */}
-                    <div className="flex-shrink-0 w-32 h-32 rounded-2xl overflow-hidden shadow-lg border border-gray-60">
+                    <div className="flex-shrink-0 w-20 h-20 md:w-32 md:h-32 rounded-xl md:rounded-2xl overflow-hidden shadow-lg border border-gray-60">
                       <img
                         src={product.image}
                         alt={product.name}
@@ -160,25 +162,31 @@ const MenuSection = () => {
                     {/* Product Details */}
                     <div
                       className={`flex-1 ${isEven ? "text-left" : "text-right"}`}
+                      style={{
+                        direction: 'rtl',
+                        fontFamily: "'Noto Sans Arabic', sans-serif"
+                      }}
                     >
                       <div className="flex items-center justify-between mb-3">
                         <h4
-                          className={`text-2xl font-bold text-white ${
+                          className={`text-lg md:text-2xl font-bold text-white ${
                             isEven ? "" : "order-2"
                           }`}
+                          style={{ fontFamily: "'Noto Sans Arabic', sans-serif" }}
                         >
                           {product.name}
                         </h4>
                         <span
-                          className={`text-xl font-bold text-amber-400 ${
+                          className={`text-base md:text-xl font-bold text-amber-400 ${
                             isEven ? "" : "order-1 mr-4"
                           }`}
                         >
-                          {product.price?.toFixed(2) ?? "N/A"} IQD
+                          {product.price?.toFixed(0) ?? "N/A"} IQD
                         </span>
                       </div>
                       {product.description && (
-                        <p className="text-gray-300 mb-4 text-lg">
+                        <p className="text-gray-300 mb-2 md:mb-4 text-sm md:text-lg"
+                           style={{ fontFamily: "'Noto Sans Arabic', sans-serif" }}>
                           {product.description}
                         </p>
                       )}

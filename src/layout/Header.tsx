@@ -1,8 +1,16 @@
-import { Facebook, Instagram, Twitter } from 'lucide-react';
+
 import { useState, useEffect } from 'react';
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
+
+    const handleInstagramClick = () => {
+    window.open('https://www.instagram.com/cafee.way?igsh=bW95bDVua3F3em52', '_blank');
+  };
+
+  const handleSnapchatClick = () => {
+    window.open('https://snapchat.com/t/FpP5t0sL', '_blank');
+  };
 
   useEffect(() => {
     const handleScroll = () => {
@@ -26,16 +34,14 @@ const Header = () => {
             <h2 className="text-2xl font-bold text-amber-400 font-mono">Cafe Way</h2>
           </div>
 
-          <div className="flex items-center gap-4">
-            <a href="#" className="text-gray-300 hover:text-amber-400 transition-colors">
-              <Facebook size={24} />
-            </a>
-            <a href="#" className="text-gray-300 hover:text-amber-400 transition-colors">
-              <Instagram size={24} />
-            </a>
-            <a href="#" className="text-gray-300 hover:text-amber-400 transition-colors">
-              <Twitter size={24} />
-            </a>
+          <div onClick={handleSnapchatClick} className="flex items-center gap-4">
+            <div  className="text-gray-300 hover:text-amber-400 transition-colors">
+               <img src="/icons/snapchat-logo.svg" loading="lazy" alt="Snapchat" className="w-10 h-10" />
+            </div>
+            <div onClick={handleInstagramClick} className="text-gray-300 hover:text-amber-400 transition-colors">
+              <img src="/icons/instagram.svg" alt="Instagram" className="w-11 h-11" />
+            </div>
+          
           </div>
         </nav>
       </div>
