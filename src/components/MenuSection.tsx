@@ -104,7 +104,7 @@ const MenuSection = () => {
               key={section.title}
               onClick={() => scrollToSection(section.title)}
               className="bg-gray-700 text-amber-400 px-6 py-3 rounded-full font-mono font-bold hover:bg-amber-600 hover:text-black transition-colors shadow-lg"
-              style={{ fontFamily: "'Noto Sans Arabic', sans-serif" }}
+              style={{ fontFamily: "'Tajawal', 'Amiri', 'Noto Sans Arabic', sans-serif" }}
             >
               {section.title}
             </button>
@@ -125,7 +125,7 @@ const MenuSection = () => {
             }`}
           >
             <h3 className="text-2xl md:text-3xl font-bold text-amber-400 mb-6 md:mb-12 text-center font-mono relative z-10"
-                style={{ fontFamily: "'Noto Sans Arabic', sans-serif" }}>
+                style={{ fontFamily: "'Tajawal', 'Amiri', 'Noto Sans Arabic', sans-serif" }}>
               {section.title}
             </h3>
 
@@ -166,7 +166,7 @@ const MenuSection = () => {
                       className={`flex-1 ${isEven ? "text-left" : "text-right"}`}
                       style={{
                         direction: 'rtl',
-                        fontFamily: "'Noto Sans Arabic', sans-serif"
+                        fontFamily: "'Tajawal', 'Amiri', 'Noto Sans Arabic', sans-serif"
                       }}
                     >
                       <div className="flex items-center justify-between mb-3">
@@ -174,7 +174,7 @@ const MenuSection = () => {
                           className={`text-lg md:text-2xl font-bold text-white ${
                             isEven ? "" : "order-2"
                           }`}
-                          style={{ fontFamily: "'Noto Sans Arabic', sans-serif" }}
+                          style={{ fontFamily: "'Tajawal', 'Amiri', 'Noto Sans Arabic', sans-serif" }}
                         >
                           {product.name}
                         </h4>
@@ -188,7 +188,7 @@ const MenuSection = () => {
                       </div>
                       {product.description && (
                         <p className="text-gray-300 mb-2 md:mb-4 text-sm md:text-lg"
-                           style={{ fontFamily: "'Noto Sans Arabic', sans-serif" }}>
+                           style={{ fontFamily: "'Tajawal', 'Amiri', 'Noto Sans Arabic', sans-serif" }}>
                           {product.description}
                         </p>
                       )}
