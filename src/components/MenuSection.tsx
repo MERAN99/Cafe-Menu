@@ -151,6 +151,7 @@ const MenuSection = () => {
                       {/* Product Image */}
                       <div className="flex-shrink-0 w-40 h-30 md:w-32 md:h-32 rounded-xl md:rounded-2xl overflow-hidden shadow-lg border border-gray-60">
                         <img
+                        loading="lazy"
                           src={product.image}
                           alt={product.name}
                           className="w-full h-full object-contain"
