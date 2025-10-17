@@ -21,6 +21,7 @@ interface Category {
 
 interface Section {
   title: string;
+  id: string;
   products: Product[];
 }
 
@@ -40,6 +41,7 @@ const MenuSection = () => {
 
         const structured = data.categories.map((cat: Category) => ({
           title: cat.name,
+          id: cat._id,
           products: data.products.filter(
             (p: Product) => p.category._id === cat._id
           ),
@@ -101,7 +103,7 @@ const MenuSection = () => {
         <div className="flex flex-wrap justify-center gap-2 md:gap-4 mb-6 md:mb-12 px-2">
           {menuData.map((section) => (
             <button
-              key={section.title}
+              key={section.id}
               onClick={() => scrollToSection(section.title)}
               className="bg-gray-700 text-amber-400 px-6 py-3 rounded-full font-mono font-bold hover:bg-amber-600 hover:text-black transition-colors shadow-lg"
               style={{ fontFamily: "'Tajawal', 'Amiri', 'Noto Sans Arabic', sans-serif" }}
@@ -116,11 +118,11 @@ const MenuSection = () => {
       <div className="space-y-8 md:space-y-16">
         {menuData.map((section, sectionIndex) => (
           <div
-            key={sectionIndex}
+            key={section.id}
             id={section.title.toLowerCase().replace(/\s+/g, "-")}
             className={`rounded-2xl md:rounded-3xl p-4 md:p-8 shadow-2xl border border-gray-700 relative overflow-hidden ${
               sectionIndex % 2 === 0
-                ? "bg-gradient-to-r from-gray-80 to-gray-900"
+                ? "bg-gradient-to-r from-gray-80 to-gray-90"
                 : "bg-gradient-to-l from-gray-80 to-gray-900"
             }`}
           >
@@ -129,89 +131,70 @@ const MenuSection = () => {
               {section.title}
             </h3>
 
-            {section.products.length === 0 && (
-
-              
-              <p className="text-gray-400 text-center italic">
-                No products available in this category.
-              </p>
-            )}
-
-            <div className="space-y-4 md:space-y-8 relative z-10">
-              {section.products.map((product, productIndex) => {
-                const isEven = productIndex % 2 === 0;
-                return (
-                  <div
-                    key={product.id}
-                    className={`flex items-center gap-4 md:gap-8 ${
-                      isEven ? "flex-row" : "flex-row-reverse"
-                    }`}
-                  >
-                    {/* Product Image */}
-                    <div className="flex-shrink-0 w-20 h-20 md:w-32 md:h-32 rounded-xl md:rounded-2xl overflow-hidden shadow-lg border border-gray-60">
-                      <img
-                        src={product.image}
-                        alt={product.name}
-                        className="w-full h-full object-cover"
-                        onError={(e) => {
-                          const target = e.target as HTMLImageElement;
-                          target.onerror = null;
-                          target.src = "/vite.svg"; // fallback image
-                        }}
-                      />
-                    </div>
-
-                    {/* Product Details */}
+            {section.products.length === 0 ? (
+              <div key={`no-products-${section.id}`}>
+                <p className="text-gray-400 text-center italic">
+                  No products available in this category.
+                </p>
+              </div>
+            ) : (
+              <div key={`products-${section.id}`} className="space-y-4 md:space-y-8 relative z-10">
+                {section.products.map((product, productIndex) => {
+                  const isEven = productIndex % 2 === 0;
+                  return (
                     <div
-                      className={`flex-1 ${isEven ? "text-left" : "text-right"}`}
-                      style={{
-                        direction: 'rtl',
-                        fontFamily: "'Tajawal', 'Amiri', 'Noto Sans Arabic', sans-serif"
-                      }}
+                      key={product.id}
+                      className={`flex items-center gap-4 md:gap-8 ${
+                        isEven ? "flex-row" : "flex-row-reverse"
+                      }`}
                     >
-                      <div className="flex items-center justify-between mb-3">
-                        <h4
-                          className={`text-lg md:text-2xl font-bold text-white ${
-                            isEven ? "" : "order-2"
-                          }`}
-                          style={{ fontFamily: "'Tajawal', 'Amiri', 'Noto Sans Arabic', sans-serif" }}
-                        >
-                          {product.name}
-                        </h4>
-                        <span
-                          className={`text-base md:text-xl font-bold text-amber-400 ${
-                            isEven ? "" : "order-1 mr-4"
-                          }`}
-                        >
-                          {product.price?.toFixed(0) ?? "N/A"} IQD
-                        </span>
+                      {/* Product Image */}
+                      <div className="flex-shrink-0 w-40 h-30 md:w-32 md:h-32 rounded-xl md:rounded-2xl overflow-hidden shadow-lg border border-gray-60">
+                        <img
+                          src={product.image}
+                          alt={product.name}
+                          className="w-full h-full object-contain"
+                          onError={(e) => {
+                            const target = e.target as HTMLImageElement;
+                            target.onerror = null;
+                            target.src = "/Logo/Cafe-Logo.png"; // fallback image
+                          }}
+                        />
                       </div>
-                      {product.description && (
-                        <p className="text-gray-30 mb-2 md:mb-4 text-sm md:text-lg"
-                           style={{ fontFamily: "'Tajawal', 'Amiri', 'Noto Sans Arabic', sans-serif" }}>
-                          {product.description}
-                        </p>
-                      )}
-                      {product.badge && (
-                        <span
-                          className={`inline-block px-4 py-2 rounded-full text-sm font-medium ${
-                            product.badge === "Best Seller"
-                              ? "bg-amber-600 text-black"
-                              : product.badge === "50% Off"
-                              ? "bg-red-600 text-white"
-                              : product.badge === "Popular"
-                              ? "bg-green-600 text-white"
-                              : "bg-blue-600 text-white"
-                          }`}
-                        >
-                          {product.badge}
-                        </span>
-                      )}
+
+                      {/* Product Details */}
+                      <div
+                        className={`flex-1 ${isEven ? "text-left" : "text-right"}`}
+                        style={{
+                          direction: 'rtl',
+                          fontFamily: "'Tajawal', 'Amiri', 'Noto Sans Arabic', sans-serif"
+                        }}
+                      >
+                        <div className="items-center justify-between mb-3">
+                          <h4
+                            className={`text-lg md:text-2xl font-bold text-white ${
+                              isEven ? "" : "order-2"
+                            }`}
+                            style={{ fontFamily: "'Tajawal', 'Amiri', 'Noto Sans Arabic', sans-serif" }}
+                          >
+                            {product.name}
+                          </h4>
+                          <span
+                            className={`text-base md:text-xl font-bold text-amber-400 ${
+                              isEven ? "" : "order-1 mr-4"
+                            }`}
+                          >
+                            {product.price?.toFixed(0) ?? "N/A"} IQD
+                          </span>
+                        </div>
+                 
+                 
+                      </div>
                     </div>
-                  </div>
-                );
-              })}
-            </div>
+                  );
+                })}
+              </div>
+            )}
           </div>
         ))}
       </div>
@@ -220,7 +203,7 @@ const MenuSection = () => {
       {showScrollTop && (
         <button
           onClick={scrollToTop}
-          className="fixed bottom-6 right-6 bg-amber-60 text-black p-4 rounded-full shadow-lg hover:bg-amber-500 transition-all duration-300 z-50"
+          className="fixed bottom-6 right-6 bg-amber-500 text-black p-4 rounded-full cursor-pointer z-50"
           aria-label="Scroll to top"
         >
           <svg

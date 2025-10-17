@@ -27,7 +27,7 @@ const VideoSection = () => {
           playsInline // Add this to prevent fullscreen playback on mobile
           controls={false} // Ensure no default controls appear
           x-webkit-airplay="allow" // For Safari iOS
-          webkit-playsinline // For Safari iOS
+          webkit-playsinline="true" // For Safari iOS
         >
           <source src="/Video/MenuVideo.mp4" type="video/mp4" />
           Your browser does not support the video tag.
