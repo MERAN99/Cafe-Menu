@@ -49,7 +49,7 @@ const Footer = () => {
             <h3 className="text-xl font-bold mb-4 text-amber-400 font-mono">Order Online</h3>
             <div className=" border-2 border-gray-600 rounded-lg w-32 h-32 flex items-center justify-center overflow-hidden">
               <img
-                src="/QRCode/qr-code.svg"
+                src="/QRCode/qr-code.png"
                 alt="QR Code for online ordering"
                 className="w-full h-full object-contain"
               />
