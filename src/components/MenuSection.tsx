@@ -142,55 +142,61 @@ const MenuSection = () => {
                 {section.products.map((product, productIndex) => {
                   const isEven = productIndex % 2 === 0;
                   return (
-                    <div
-                      key={product.id}
-                      className={`flex items-center gap-4 md:gap-8 ${
-                        isEven ? "flex-row" : "flex-row-reverse"
-                      }`}
-                    >
-                      {/* Product Image */}
-                      <div className="flex-shrink-0 w-40 h-30 md:w-32 md:h-32 rounded-xl md:rounded-2xl overflow-hidden shadow-lg border border-gray-60">
-                        <img
-                        loading="lazy"
-                          src={product.image}
-                          alt={product.name}
-                          className="w-full h-full object-contain"
-                          onError={(e) => {
-                            const target = e.target as HTMLImageElement;
-                            target.onerror = null;
-                            target.src = "/Logo/Cafe-Logo.png"; // fallback image
-                          }}
-                        />
-                      </div>
-
-                      {/* Product Details */}
+                    <div key={product.id}>
                       <div
-                        className={`flex-1 ${isEven ? "text-left" : "text-right"}`}
-                        style={{
-                          direction: 'rtl',
-                          fontFamily: "'Tajawal', 'Amiri', 'Noto Sans Arabic', sans-serif"
-                        }}
+                        className={`flex items-center gap-4 md:gap-8 ${
+                          isEven ? "flex-row" : "flex-row-reverse"
+                        }`}
                       >
-                        <div className="items-center justify-between mb-3">
-                          <h4
-                            className={`text-lg md:text-2xl font-bold text-white ${
-                              isEven ? "" : "order-2"
-                            }`}
-                            style={{ fontFamily: "'Tajawal', 'Amiri', 'Noto Sans Arabic', sans-serif" }}
-                          >
-                            {product.name}
-                          </h4>
-                          <span
-                            className={`text-base md:text-xl font-bold text-amber-400 ${
-                              isEven ? "" : "order-1 mr-4"
-                            }`}
-                          >
-                            {product.price?.toFixed(0) ?? "N/A"} IQD
-                          </span>
+                       
+                        {/* Product Image */}
+                        <div className="flex-shrink-0 w-40 h-30 md:w-32 md:h-32 my-4 rounded-xl md:rounded-2xl overflow-hidden shadow-lg border border-gray-60">
+                          <img
+                          loading="lazy"
+                            src={product.image}
+                            alt={product.name}
+                            className="w-full h-full object-contain"
+                            onError={(e) => {
+                              const target = e.target as HTMLImageElement;
+                              target.onerror = null;
+                              target.src = "/Logo/Cafe-Logo.png"; // fallback image
+                            }}
+                          />
                         </div>
-                 
-                 
+
+                        {/* Product Details */}
+                        <div
+                          className={`flex-1 ${isEven ? "text-left" : "text-right"}`}
+                          style={{
+                            direction: 'rtl',
+                            fontFamily: "'Tajawal', 'Amiri', 'Noto Sans Arabic', sans-serif"
+                          }}
+                        >
+                          <div className="items-center justify-between mb-3">
+                            <h4
+                              className={`text-lg md:text-2xl font-bold text-white ${
+                                isEven ? "" : "order-2"
+                              }`}
+                              style={{ fontFamily: "'Tajawal', 'Amiri', 'Noto Sans Arabic', sans-serif" }}
+                            >
+                              {product.name}
+                            </h4>
+                            <span
+                              className={`text-base md:text-xl font-bold text-amber-400 ${
+                                isEven ? "" : "order-1 mr-4"
+                              }`}
+                            >
+                              {product.price?.toFixed(0) ?? "N/A"} IQD
+                            </span>
+                          </div>
+                   
+                   
+                        </div>
                       </div>
+                      {/* Add line between products */}
+                      {productIndex < section.products.length - 1 && (
+                        <div className="border-t border-gray-600 my-4 md:my-6"></div>
+                      )}
                     </div>
                   );
                 })}
