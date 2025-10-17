@@ -106,9 +106,12 @@ const MenuSection = () => {
               key={section.id}
               onClick={() => scrollToSection(section.title)}
               className="bg-gray-700 text-amber-400 px-6 py-3 rounded-full font-mono font-bold hover:bg-amber-600 hover:text-black transition-colors shadow-lg"
-              style={{ fontFamily: "'Tajawal', 'Amiri', 'Noto Sans Arabic', sans-serif" }}
+              style={{ fontFamily: "'Vazirmatn', 'Noto Naskh Arabic', sans-serif" }}
             >
-              {section.title}
+              
+                {section.title}
+             
+              
             </button>
           ))}
         </div>
@@ -127,7 +130,7 @@ const MenuSection = () => {
             }`}
           >
             <h3 className="text-2xl md:text-3xl font-bold text-amber-400 mb-6 md:mb-12 text-center font-mono relative z-10"
-                style={{ fontFamily: "'Tajawal', 'Amiri', 'Noto Sans Arabic', sans-serif" }}>
+                style={{ fontFamily: "'Vazirmatn', 'Noto Naskh Arabic', sans-serif" }}>
               {section.title}
             </h3>
 
@@ -177,7 +180,7 @@ const MenuSection = () => {
                               className={`text-lg md:text-2xl font-bold text-white ${
                                 isEven ? "" : "order-2"
                               }`}
-                              style={{ fontFamily: "'Tajawal', 'Amiri', 'Noto Sans Arabic', sans-serif" }}
+                              style={{ fontFamily: "'Vazirmatn', 'Noto Naskh Arabic', sans-serif" }}
                             >
                               {product.name}
                             </h4>
