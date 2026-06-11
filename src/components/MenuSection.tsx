@@ -1,7 +1,8 @@
 import { useState, useEffect } from "react";
 
 interface Product {
-  id: string;
+  _id: string;
+  id?: string;
   name: string;
   price: number;
   description?: string;
@@ -145,7 +146,7 @@ const MenuSection = () => {
                 {section.products.map((product, productIndex) => {
                   const isEven = productIndex % 2 === 0;
                   return (
-                    <div key={product.id}>
+                    <div key={product._id || product.id}>
                       <div
                         className={`flex items-center gap-4 md:gap-8 ${
                           isEven ? "flex-row" : "flex-row-reverse"

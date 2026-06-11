@@ -1,68 +1,52 @@
 {
-  "updatedAt": "2025-10-16T23:43:18.453Z",
+  "updatedAt": "2026-06-11T23:52:07.938Z",
   "categories": [
     {
-      "_id": "68f02b6aab4ddd23cc39762a",
-      "name": "Moktel",
-      "createdAt": "2025-10-15T23:16:58.023Z",
-      "updatedAt": "2025-10-15T23:16:58.023Z",
+      "_id": "6a298d85aae25c387942e944",
+      "name": "Drinks",
+      "createdAt": "2026-06-10T16:15:01.096Z",
+      "updatedAt": "2026-06-10T16:15:01.096Z",
       "__v": 0
     },
     {
-      "_id": "68f02b71ab4ddd23cc397631",
-      "name": "Coffe",
-      "createdAt": "2025-10-15T23:17:05.016Z",
-      "updatedAt": "2025-10-15T23:17:05.016Z",
+      "_id": "6a299dc17e94bdeed64c0191",
+      "name": "Cakes",
+      "createdAt": "2026-06-10T17:24:17.683Z",
+      "updatedAt": "2026-06-10T17:24:17.683Z",
       "__v": 0
     }
   ],
   "products": [
     {
-      "_id": "68f17629537c50f95b5638fa",
-      "name": "ئێسپرێسۆ",
+      "_id": "6a298dacaae25c387942e948",
+      "name": "Water",
+      "price": 250,
+      "productCost": 100,
+      "image": "",
+      "category": {
+        "_id": "6a298d85aae25c387942e944",
+        "name": "Drinks"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-10T16:15:40.960Z",
+      "updatedAt": "2026-06-10T20:46:28.880Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a299de57e94bdeed64c01af",
+      "name": "Cake",
       "price": 2500,
       "productCost": 1000,
-      "image": "/uploads/product-176065489434-84998015.png",
+      "image": "",
       "category": {
-        "_id": "68f02b71ab4ddd23cc397631",
-        "name": "Coffe"
+        "_id": "6a299dc17e94bdeed64c0191",
+        "name": "Cakes"
       },
-      "department": "bar",
+      "department": "kitchen",
       "isAvailable": true,
-      "createdAt": "2025-10-16T22:48:09.468Z",
-      "updatedAt": "2025-10-16T22:48:09.468Z",
-      "__v": 0
-    },
-    {
-      "_id": "68f1765c537c50f95b563900",
-      "name": "ئەنەناس",
-      "price": 250,
-      "productCost": 1500,
-      "image": "/uploads/product-1760654940284-891257483.png",
-      "category": {
-        "_id": "68f02b6aab4ddd23cc39762a",
-        "name": "Moktel"
-      },
-      "department": "bar",
-      "isAvailable": true,
-      "createdAt": "2025-10-16T22:49:00.313Z",
-      "updatedAt": "2025-10-16T22:49:00.313Z",
-      "__v": 0
-    },
-    {
-      "_id": "68f1767e537c50f95b563906",
-      "name": "لاتێ",
-      "price": 3000,
-      "productCost": 1500,
-      "image": "/uploads/product-1760654974255-235723353.png",
-      "category": {
-        "_id": "68f02b71ab4ddd23cc397631",
-        "name": "Coffe"
-      },
-      "department": "bar",
-      "isAvailable": true,
-      "createdAt": "2025-10-16T22:49:34.280Z",
-      "updatedAt": "2025-10-16T22:49:34.280Z",
+      "createdAt": "2026-06-10T17:24:53.069Z",
+      "updatedAt": "2026-06-10T17:30:57.455Z",
       "__v": 0
     }
   ]
