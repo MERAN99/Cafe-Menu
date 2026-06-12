@@ -1,52 +1,29 @@
 {
-  "updatedAt": "2026-06-12T00:21:09.584Z",
+  "updatedAt": "2026-06-12T15:57:57.688Z",
   "categories": [
     {
-      "_id": "6a298d85aae25c387942e944",
+      "_id": "6a2c17c9724a58b5c90bbeec",
       "name": "Drinks",
-      "createdAt": "2026-06-10T16:15:01.096Z",
-      "updatedAt": "2026-06-10T16:15:01.096Z",
-      "__v": 0
-    },
-    {
-      "_id": "6a299dc17e94bdeed64c0191",
-      "name": "Cakes",
-      "createdAt": "2026-06-10T17:24:17.683Z",
-      "updatedAt": "2026-06-10T17:24:17.683Z",
+      "createdAt": "2026-06-12T14:29:29.589Z",
+      "updatedAt": "2026-06-12T14:29:29.589Z",
       "__v": 0
     }
   ],
   "products": [
     {
-      "_id": "6a298dacaae25c387942e948",
+      "_id": "6a2c17f4724a58b5c90bbef0",
       "name": "Water",
       "price": 250,
       "productCost": 100,
-      "image": "/uploads/products/product-1781223451550-642303708.png",
+      "image": "",
       "category": {
-        "_id": "6a298d85aae25c387942e944",
+        "_id": "6a2c17c9724a58b5c90bbeec",
         "name": "Drinks"
       },
       "department": "kitchen",
       "isAvailable": true,
-      "createdAt": "2026-06-10T16:15:40.960Z",
-      "updatedAt": "2026-06-12T00:17:31.597Z",
-      "__v": 0
-    },
-    {
-      "_id": "6a299de57e94bdeed64c01af",
-      "name": "Cake",
-      "price": 2500,
-      "productCost": 1000,
-      "image": "/uploads/products/product-1781223664558-303171989.png",
-      "category": {
-        "_id": "6a299dc17e94bdeed64c0191",
-        "name": "Cakes"
-      },
-      "department": "kitchen",
-      "isAvailable": true,
-      "createdAt": "2026-06-10T17:24:53.069Z",
-      "updatedAt": "2026-06-12T00:21:04.735Z",
+      "createdAt": "2026-06-12T14:30:12.159Z",
+      "updatedAt": "2026-06-12T15:56:28.191Z",
       "__v": 0
     }
   ]
