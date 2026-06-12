@@ -1,11 +1,32 @@
 {
-  "updatedAt": "2026-06-12T15:57:57.688Z",
+  "updatedAt": "2026-06-12T17:32:20.906Z",
   "categories": [
     {
       "_id": "6a2c17c9724a58b5c90bbeec",
       "name": "Drinks",
       "createdAt": "2026-06-12T14:29:29.589Z",
       "updatedAt": "2026-06-12T14:29:29.589Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2c2e18086297589c3d6e27",
+      "name": "Bakery",
+      "createdAt": "2026-06-12T16:04:40.998Z",
+      "updatedAt": "2026-06-12T16:04:40.998Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2c2e2a086297589c3d6e2b",
+      "name": "Mojito",
+      "createdAt": "2026-06-12T16:04:58.949Z",
+      "updatedAt": "2026-06-12T16:04:58.949Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2c2e4d086297589c3d6e2f",
+      "name": "شەربەتی فرێش",
+      "createdAt": "2026-06-12T16:05:33.706Z",
+      "updatedAt": "2026-06-12T16:06:17.085Z",
       "__v": 0
     }
   ],
@@ -23,7 +44,23 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-12T14:30:12.159Z",
-      "updatedAt": "2026-06-12T15:56:28.191Z",
+      "updatedAt": "2026-06-12T16:19:54.971Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2c42863538664b7f50752b",
+      "name": "پرتەقاڵ",
+      "price": 2000,
+      "productCost": 1,
+      "image": "/uploads/products/product-1781285510290-209433282.jpg",
+      "category": {
+        "_id": "6a2c2e4d086297589c3d6e2f",
+        "name": "شەربەتی فرێش"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-12T17:31:50.530Z",
+      "updatedAt": "2026-06-12T17:31:50.530Z",
       "__v": 0
     }
   ]
