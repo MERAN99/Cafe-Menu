@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-12T00:17:38.027Z",
+  "updatedAt": "2026-06-12T00:21:09.584Z",
   "categories": [
     {
       "_id": "6a298d85aae25c387942e944",
@@ -38,7 +38,7 @@
       "name": "Cake",
       "price": 2500,
       "productCost": 1000,
-      "image": "",
+      "image": "/uploads/products/product-1781223664558-303171989.png",
       "category": {
         "_id": "6a299dc17e94bdeed64c0191",
         "name": "Cakes"
@@ -46,7 +46,7 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-10T17:24:53.069Z",
-      "updatedAt": "2026-06-10T17:30:57.455Z",
+      "updatedAt": "2026-06-12T00:21:04.735Z",
       "__v": 0
     }
   ]
