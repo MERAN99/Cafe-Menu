@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-12T17:38:43.443Z",
+  "updatedAt": "2026-06-12T17:39:49.364Z",
   "categories": [
     {
       "_id": "6a2c17c9724a58b5c90bbeec",
@@ -52,7 +52,7 @@
       "name": "پرتەقاڵ",
       "price": 2000,
       "productCost": 1,
-      "image": "/uploads/products/product-1781285877000-745362067.jpg",
+      "image": "/uploads/products/product-1781285978993-289805629.jpg",
       "category": {
         "_id": "6a2c2e4d086297589c3d6e2f",
         "name": "شەربەتی فرێش"
@@ -60,7 +60,7 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-12T17:31:50.530Z",
-      "updatedAt": "2026-06-12T17:37:57.333Z",
+      "updatedAt": "2026-06-12T17:39:39.104Z",
       "__v": 0
     }
   ]
