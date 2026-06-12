@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-12T17:49:21.330Z",
+  "updatedAt": "2026-06-12T18:01:03.791Z",
   "categories": [
     {
       "_id": "6a2c17c9724a58b5c90bbeec",
@@ -61,6 +61,22 @@
       "isAvailable": true,
       "createdAt": "2026-06-12T17:31:50.530Z",
       "updatedAt": "2026-06-12T17:47:41.207Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2c494c724c7913b8f8b4a6",
+      "name": "ئەنەناس",
+      "price": 2000,
+      "productCost": 1,
+      "image": "/uploads/products/product-1781287244548-495321148.jpg",
+      "category": {
+        "_id": "6a2c2e4d086297589c3d6e2f",
+        "name": "شەربەتی فرێش"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-12T18:00:44.604Z",
+      "updatedAt": "2026-06-12T18:00:58.427Z",
       "__v": 0
     }
   ]
