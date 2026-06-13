@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-13T19:08:55.139Z",
+  "updatedAt": "2026-06-13T19:37:28.867Z",
   "categories": [
     {
       "_id": "6a2c17c9724a58b5c90bbeec",
@@ -1039,7 +1039,7 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T14:07:01.913Z",
-      "updatedAt": "2026-06-13T14:07:01.913Z",
+      "updatedAt": "2026-06-13T19:33:43.796Z",
       "__v": 0
     },
     {
@@ -1167,7 +1167,7 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T14:36:32.052Z",
-      "updatedAt": "2026-06-13T14:36:32.052Z",
+      "updatedAt": "2026-06-13T19:33:46.085Z",
       "__v": 0
     },
     {
@@ -1631,7 +1631,7 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T17:38:25.461Z",
-      "updatedAt": "2026-06-13T17:38:25.461Z",
+      "updatedAt": "2026-06-13T19:33:46.085Z",
       "__v": 0
     },
     {
