@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-12T18:01:03.791Z",
+  "updatedAt": "2026-06-13T19:08:55.139Z",
   "categories": [
     {
       "_id": "6a2c17c9724a58b5c90bbeec",
@@ -27,6 +27,41 @@
       "name": "شەربەتی فرێش",
       "createdAt": "2026-06-12T16:05:33.706Z",
       "updatedAt": "2026-06-12T16:06:17.085Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2c4cf4724c7913b8f8b62f",
+      "name": "کۆفی گەرم",
+      "createdAt": "2026-06-12T18:16:20.853Z",
+      "updatedAt": "2026-06-12T18:16:20.853Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2c4d0e724c7913b8f8b633",
+      "name": "کۆفی سارد",
+      "createdAt": "2026-06-12T18:16:46.165Z",
+      "updatedAt": "2026-06-12T18:16:46.165Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2d624bd5f005a18a4c8b0f",
+      "name": "مێڵک شەیک",
+      "createdAt": "2026-06-13T13:59:39.129Z",
+      "updatedAt": "2026-06-13T13:59:39.129Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2d651fd5f005a18a4c8b8c",
+      "name": "مۆهیتۆ",
+      "createdAt": "2026-06-13T14:11:43.524Z",
+      "updatedAt": "2026-06-13T14:11:43.524Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2d6d58d5f005a18a4c8c6c",
+      "name": "خواردنەوە",
+      "createdAt": "2026-06-13T14:46:48.276Z",
+      "updatedAt": "2026-06-13T14:46:48.276Z",
       "__v": 0
     }
   ],
@@ -76,7 +111,1927 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-12T18:00:44.604Z",
-      "updatedAt": "2026-06-12T18:00:58.427Z",
+      "updatedAt": "2026-06-12T18:10:05.990Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2c4f27724c7913b8f8b65e",
+      "name": "ئێسپرێسۆ سنگڵ",
+      "price": 2000,
+      "productCost": 1000,
+      "image": "/uploads/products/product-1781288743718-45340246.jpg",
+      "category": {
+        "_id": "6a2c4cf4724c7913b8f8b62f",
+        "name": "کۆفی گەرم"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-12T18:25:43.836Z",
+      "updatedAt": "2026-06-12T18:25:43.836Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2c547f724c7913b8f8b6b3",
+      "name": "دەبڵ ئێسپرێسۆ",
+      "price": 4000,
+      "productCost": 2000,
+      "image": "/uploads/products/product-1781290111596-293685704.jpg",
+      "category": {
+        "_id": "6a2c4cf4724c7913b8f8b62f",
+        "name": "کۆفی گەرم"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-12T18:48:31.638Z",
+      "updatedAt": "2026-06-12T18:48:31.638Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2c6260eabf4cc09b8f262b",
+      "name": "ئێسپرێسۆ ماکیاتۆ",
+      "price": 2500,
+      "productCost": 1000,
+      "image": "/uploads/products/product-1781293664901-801142307.jpg",
+      "category": {
+        "_id": "6a2c4cf4724c7913b8f8b62f",
+        "name": "کۆفی گەرم"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-12T19:47:44.987Z",
+      "updatedAt": "2026-06-12T19:47:44.987Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2c6cb0eabf4cc09b8f2654",
+      "name": "کۆرتادۆ",
+      "price": 2500,
+      "productCost": 1000,
+      "image": "/uploads/products/product-1781296304600-838137934.jpg",
+      "category": {
+        "_id": "6a2c4cf4724c7913b8f8b62f",
+        "name": "کۆفی گەرم"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-12T20:31:44.645Z",
+      "updatedAt": "2026-06-12T20:31:44.645Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2c6cf1eabf4cc09b8f2659",
+      "name": "لاتێ",
+      "price": 3000,
+      "productCost": 1000,
+      "image": "/uploads/products/product-1781296368916-572495882.jpg",
+      "category": {
+        "_id": "6a2c4cf4724c7913b8f8b62f",
+        "name": "کۆفی گەرم"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-12T20:32:49.010Z",
+      "updatedAt": "2026-06-12T20:32:49.010Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2c6d17eabf4cc09b8f265e",
+      "name": "کاپۆچینۆ",
+      "price": 3000,
+      "productCost": 1000,
+      "image": "/uploads/products/product-1781296407657-62287485.jpg",
+      "category": {
+        "_id": "6a2c4cf4724c7913b8f8b62f",
+        "name": "کۆفی گەرم"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-12T20:33:27.729Z",
+      "updatedAt": "2026-06-12T20:33:27.729Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2d124deabf4cc09b8f269b",
+      "name": "لاتێ ماکیاتۆ",
+      "price": 3000,
+      "productCost": 1000,
+      "image": "/uploads/products/product-1781338701799-358937475.jpg",
+      "category": {
+        "_id": "6a2c4cf4724c7913b8f8b62f",
+        "name": "کۆفی گەرم"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T08:18:21.849Z",
+      "updatedAt": "2026-06-13T08:18:21.849Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2d1659eabf4cc09b8f26b8",
+      "name": "کەرەمێڵ لاتێ",
+      "price": 3500,
+      "productCost": 1000,
+      "image": "/uploads/products/product-1781339737760-386692669.jpg",
+      "category": {
+        "_id": "6a2c4cf4724c7913b8f8b62f",
+        "name": "کۆفی گەرم"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T08:35:37.894Z",
+      "updatedAt": "2026-06-13T08:35:37.894Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2d1686eabf4cc09b8f26bd",
+      "name": "ڤنێلا لاتێ",
+      "price": 3500,
+      "productCost": 1000,
+      "image": "/uploads/products/product-1781339782221-67041893.jpg",
+      "category": {
+        "_id": "6a2c4cf4724c7913b8f8b62f",
+        "name": "کۆفی گەرم"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T08:36:22.474Z",
+      "updatedAt": "2026-06-13T08:36:22.474Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2d16a6eabf4cc09b8f26c2",
+      "name": "سپانش لاتێ",
+      "price": 3500,
+      "productCost": 1000,
+      "image": "/uploads/products/product-1781339813999-477231388.jpg",
+      "category": {
+        "_id": "6a2c4cf4724c7913b8f8b62f",
+        "name": "کۆفی گەرم"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T08:36:54.107Z",
+      "updatedAt": "2026-06-13T08:36:54.107Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2d16c2eabf4cc09b8f26c7",
+      "name": "مۆکا",
+      "price": 3500,
+      "productCost": 1000,
+      "image": "/uploads/products/product-1781339842024-63581882.jpg",
+      "category": {
+        "_id": "6a2c4cf4724c7913b8f8b62f",
+        "name": "کۆفی گەرم"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T08:37:22.064Z",
+      "updatedAt": "2026-06-13T08:37:22.064Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2d1791eabf4cc09b8f26d8",
+      "name": "لاتیێی دارچین",
+      "price": 3500,
+      "productCost": 1000,
+      "image": "/uploads/products/product-1781340049106-402725941.jpg",
+      "category": {
+        "_id": "6a2c4cf4724c7913b8f8b62f",
+        "name": "کۆفی گەرم"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T08:40:49.184Z",
+      "updatedAt": "2026-06-13T09:10:07.973Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2d18e4eabf4cc09b8f26e9",
+      "name": "ئەمریکانۆ سنگڵ",
+      "price": 2000,
+      "productCost": 1000,
+      "image": "/uploads/products/product-1781340388892-132763068.jpg",
+      "category": {
+        "_id": "6a2c4cf4724c7913b8f8b62f",
+        "name": "کۆفی گەرم"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T08:46:28.952Z",
+      "updatedAt": "2026-06-13T08:46:28.952Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2d1916eabf4cc09b8f26ee",
+      "name": "ئەمریکانۆ دەبڵ",
+      "price": 4000,
+      "productCost": 1000,
+      "image": "/uploads/products/product-1781340461708-200681503.jpg",
+      "category": {
+        "_id": "6a2c4cf4724c7913b8f8b62f",
+        "name": "کۆفی گەرم"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T08:47:18.904Z",
+      "updatedAt": "2026-06-13T08:47:41.782Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2d1a8aeabf4cc09b8f2706",
+      "name": "شوکلاتەی گەرم",
+      "price": 2000,
+      "productCost": 1000,
+      "image": "/uploads/products/product-1781340809965-331200156.jpg",
+      "category": {
+        "_id": "6a2c4cf4724c7913b8f8b62f",
+        "name": "کۆفی گەرم"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T08:53:30.171Z",
+      "updatedAt": "2026-06-13T09:08:26.114Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2d1d12eabf4cc09b8f2717",
+      "name": "وەسەت",
+      "price": 2000,
+      "productCost": 1000,
+      "image": "/uploads/products/product-1781341458803-372609523.jpg",
+      "category": {
+        "_id": "6a2c4cf4724c7913b8f8b62f",
+        "name": "کۆفی گەرم"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T09:04:18.878Z",
+      "updatedAt": "2026-06-13T09:04:18.878Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2d1d31eabf4cc09b8f271c",
+      "name": "چوکلێتی",
+      "price": 2000,
+      "productCost": 1000,
+      "image": "/uploads/products/product-1781341489435-178883570.jpg",
+      "category": {
+        "_id": "6a2c4cf4724c7913b8f8b62f",
+        "name": "کۆفی گەرم"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T09:04:49.524Z",
+      "updatedAt": "2026-06-13T09:04:49.524Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2d1d53eabf4cc09b8f2721",
+      "name": "قەزوان",
+      "price": 2000,
+      "productCost": 1000,
+      "image": "/uploads/products/product-1781341523795-821380094.jpg",
+      "category": {
+        "_id": "6a2c4cf4724c7913b8f8b62f",
+        "name": "کۆفی گەرم"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T09:05:23.856Z",
+      "updatedAt": "2026-06-13T09:05:23.856Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2d1d78eabf4cc09b8f2726",
+      "name": "فستق",
+      "price": 2000,
+      "productCost": 1000,
+      "image": "/uploads/products/product-1781341560166-500890434.jpg",
+      "category": {
+        "_id": "6a2c4cf4724c7913b8f8b62f",
+        "name": "کۆفی گەرم"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T09:06:00.278Z",
+      "updatedAt": "2026-06-13T09:06:00.278Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2d1d9aeabf4cc09b8f272b",
+      "name": "بوندق",
+      "price": 2000,
+      "productCost": 1000,
+      "image": "/uploads/products/product-1781341594784-577971310.jpg",
+      "category": {
+        "_id": "6a2c4cf4724c7913b8f8b62f",
+        "name": "کۆفی گەرم"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T09:06:34.900Z",
+      "updatedAt": "2026-06-13T09:06:34.900Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2d1f6eeabf4cc09b8f2746",
+      "name": "فلات وایت",
+      "price": 3000,
+      "productCost": 1000,
+      "image": "/uploads/products/product-1781342062005-931095599.jpg",
+      "category": {
+        "_id": "6a2c4cf4724c7913b8f8b62f",
+        "name": "کۆفی گەرم"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T09:14:22.130Z",
+      "updatedAt": "2026-06-13T09:14:22.130Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2d2142eabf4cc09b8f277b",
+      "name": "V60",
+      "price": 6000,
+      "productCost": 1000,
+      "image": "/uploads/products/product-1781342530547-591475119.jpg",
+      "category": {
+        "_id": "6a2c4cf4724c7913b8f8b62f",
+        "name": "کۆفی گەرم"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T09:22:10.681Z",
+      "updatedAt": "2026-06-13T09:22:10.681Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2d21b7eabf4cc09b8f278c",
+      "name": "ئێسپرێسۆ سارد",
+      "price": 2000,
+      "productCost": 1000,
+      "image": "/uploads/products/product-1781342647304-661631562.jpg",
+      "category": {
+        "_id": "6a2c4d0e724c7913b8f8b633",
+        "name": "کۆفی سارد"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T09:24:07.382Z",
+      "updatedAt": "2026-06-13T09:24:07.382Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2d35c2d5f005a18a4c899c",
+      "name": "ئەمریکانۆ سنگڵ",
+      "price": 2000,
+      "productCost": 1000,
+      "image": "/uploads/products/product-1781347777882-278129165.jpg",
+      "category": {
+        "_id": "6a2c4d0e724c7913b8f8b633",
+        "name": "کۆفی سارد"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T10:49:38.094Z",
+      "updatedAt": "2026-06-13T10:49:38.094Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2d369fd5f005a18a4c89ad",
+      "name": "V60",
+      "price": 6000,
+      "productCost": 1000,
+      "image": "/uploads/products/product-1781347999401-605647512.jpg",
+      "category": {
+        "_id": "6a2c4d0e724c7913b8f8b633",
+        "name": "کۆفی سارد"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T10:53:19.485Z",
+      "updatedAt": "2026-06-13T10:53:19.485Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2d36ccd5f005a18a4c89b2",
+      "name": "کۆلۆ بریو",
+      "price": 4000,
+      "productCost": 1000,
+      "image": "/uploads/products/product-1781348043979-503559394.jpg",
+      "category": {
+        "_id": "6a2c4d0e724c7913b8f8b633",
+        "name": "کۆفی سارد"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T10:54:04.092Z",
+      "updatedAt": "2026-06-13T10:54:04.092Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2d36e7d5f005a18a4c89b7",
+      "name": "لاتێ",
+      "price": 3000,
+      "productCost": 1000,
+      "image": "/uploads/products/product-1781348071811-807224254.jpg",
+      "category": {
+        "_id": "6a2c4d0e724c7913b8f8b633",
+        "name": "کۆفی سارد"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T10:54:31.926Z",
+      "updatedAt": "2026-06-13T10:54:31.926Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2d370bd5f005a18a4c89bc",
+      "name": "لاتێ ڤانێلا",
+      "price": 3500,
+      "productCost": 1000,
+      "image": "/uploads/products/product-1781348107615-971332516.jpg",
+      "category": {
+        "_id": "6a2c4d0e724c7913b8f8b633",
+        "name": "کۆفی سارد"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T10:55:07.705Z",
+      "updatedAt": "2026-06-13T10:55:07.705Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2d3728d5f005a18a4c89c1",
+      "name": "لاتێ کەرەمێڵ",
+      "price": 3500,
+      "productCost": 1000,
+      "image": "/uploads/products/product-1781348135912-652505942.jpg",
+      "category": {
+        "_id": "6a2c4d0e724c7913b8f8b633",
+        "name": "کۆفی سارد"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T10:55:36.088Z",
+      "updatedAt": "2026-06-13T10:55:36.088Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2d3745d5f005a18a4c89c6",
+      "name": "لاتێ دارچین",
+      "price": 3500,
+      "productCost": 1000,
+      "image": "/uploads/products/product-1781348165092-714135279.jpg",
+      "category": {
+        "_id": "6a2c4d0e724c7913b8f8b633",
+        "name": "کۆفی سارد"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T10:56:05.164Z",
+      "updatedAt": "2026-06-13T10:56:05.164Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2d376ad5f005a18a4c89cb",
+      "name": "لاتێ گوێزهند",
+      "price": 3500,
+      "productCost": 1000,
+      "image": "/uploads/products/product-1781348202779-314817221.jpg",
+      "category": {
+        "_id": "6a2c4d0e724c7913b8f8b633",
+        "name": "کۆفی سارد"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T10:56:42.919Z",
+      "updatedAt": "2026-06-13T10:56:42.919Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2d378dd5f005a18a4c89dc",
+      "name": "سپانش لاتێ",
+      "price": 3500,
+      "productCost": 1000,
+      "image": "/uploads/products/product-1781348237046-619477805.jpg",
+      "category": {
+        "_id": "6a2c4d0e724c7913b8f8b633",
+        "name": "کۆفی سارد"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T10:57:17.178Z",
+      "updatedAt": "2026-06-13T10:57:17.178Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2d37bed5f005a18a4c89e1",
+      "name": "مۆکا",
+      "price": 3500,
+      "productCost": 1000,
+      "image": "/uploads/products/product-1781348286170-440745800.jpg",
+      "category": {
+        "_id": "6a2c4d0e724c7913b8f8b633",
+        "name": "کۆفی سارد"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T10:58:06.248Z",
+      "updatedAt": "2026-06-13T10:58:06.248Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2d37ded5f005a18a4c89e6",
+      "name": "لاتێ بستاشیۆ",
+      "price": 4000,
+      "productCost": 1000,
+      "image": "/uploads/products/product-1781348318578-706353230.jpg",
+      "category": {
+        "_id": "6a2c4d0e724c7913b8f8b633",
+        "name": "کۆفی سارد"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T10:58:38.796Z",
+      "updatedAt": "2026-06-13T10:58:38.796Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2d3899d5f005a18a4c89f7",
+      "name": "دۆڵگۆنا",
+      "price": 2500,
+      "productCost": 1000,
+      "image": "/uploads/products/product-1781348505468-911206386.jpg",
+      "category": {
+        "_id": "6a2c4d0e724c7913b8f8b633",
+        "name": "کۆفی سارد"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T11:01:45.509Z",
+      "updatedAt": "2026-06-13T11:01:45.509Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2d38fed5f005a18a4c8a08",
+      "name": "دۆڵگۆنا &شوکڵاتە",
+      "price": 3000,
+      "productCost": 1000,
+      "image": "/uploads/products/product-1781348606518-387617975.jpg",
+      "category": {
+        "_id": "6a2c4d0e724c7913b8f8b633",
+        "name": "کۆفی سارد"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T11:03:26.594Z",
+      "updatedAt": "2026-06-13T11:03:26.594Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2d397fd5f005a18a4c8a0d",
+      "name": "ئێسپرێسۆ پرتەقاڵ",
+      "price": 4000,
+      "productCost": 11000,
+      "image": "/uploads/products/product-1781348735756-30257291.jpg",
+      "category": {
+        "_id": "6a2c4d0e724c7913b8f8b633",
+        "name": "کۆفی سارد"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T11:05:35.831Z",
+      "updatedAt": "2026-06-13T11:05:35.831Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2d39a9d5f005a18a4c8a12",
+      "name": "ئێسپرێسۆ سۆدە",
+      "price": 3000,
+      "productCost": 1100,
+      "image": "/uploads/products/product-1781348777200-498316777.jpg",
+      "category": {
+        "_id": "6a2c4d0e724c7913b8f8b633",
+        "name": "کۆفی سارد"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T11:06:17.258Z",
+      "updatedAt": "2026-06-13T11:06:17.258Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2d39ded5f005a18a4c8a17",
+      "name": "ئەفۆگاتۆ",
+      "price": 3000,
+      "productCost": 1000,
+      "image": "/uploads/products/product-1781348830718-828072986.jpg",
+      "category": {
+        "_id": "6a2c4d0e724c7913b8f8b633",
+        "name": "کۆفی سارد"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T11:07:10.789Z",
+      "updatedAt": "2026-06-13T11:07:10.789Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2d3a12d5f005a18a4c8a1c",
+      "name": "ئایسکریم ئەمریکانۆ",
+      "price": 3000,
+      "productCost": 1000,
+      "image": "/uploads/products/product-1781348882071-629673726.jpg",
+      "category": {
+        "_id": "6a2c4d0e724c7913b8f8b633",
+        "name": "کۆفی سارد"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T11:08:02.147Z",
+      "updatedAt": "2026-06-13T11:08:02.147Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2d3a42d5f005a18a4c8a21",
+      "name": "ئایسکریم لاتێ",
+      "price": 4000,
+      "productCost": 1000,
+      "image": "/uploads/products/product-1781348930234-450710059.jpg",
+      "category": {
+        "_id": "6a2c4d0e724c7913b8f8b633",
+        "name": "کۆفی سارد"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T11:08:50.319Z",
+      "updatedAt": "2026-06-13T11:08:50.319Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2d3aaed5f005a18a4c8a26",
+      "name": "کاپۆچینۆ",
+      "price": 3000,
+      "productCost": 1000,
+      "image": "/uploads/products/product-1781349038722-650822098.jpg",
+      "category": {
+        "_id": "6a2c4d0e724c7913b8f8b633",
+        "name": "کۆفی سارد"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T11:10:38.836Z",
+      "updatedAt": "2026-06-13T11:10:38.836Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2d3adfd5f005a18a4c8a2b",
+      "name": "فرێدۆ کاپۆچینۆ",
+      "price": 5000,
+      "productCost": 1000,
+      "image": "/uploads/products/product-1781349087855-947179217.jpg",
+      "category": {
+        "_id": "6a2c4d0e724c7913b8f8b633",
+        "name": "کۆفی سارد"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T11:11:27.916Z",
+      "updatedAt": "2026-06-13T11:11:27.916Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2d3b2ed5f005a18a4c8a3c",
+      "name": "فرێدۆ ئێسپرێسۆ",
+      "price": 5000,
+      "productCost": 1000,
+      "image": "/uploads/products/product-1781349166642-738286246.jpg",
+      "category": {
+        "_id": "6a2c4d0e724c7913b8f8b633",
+        "name": "کۆفی سارد"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T11:12:46.735Z",
+      "updatedAt": "2026-06-13T11:12:46.735Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2d3bbcd5f005a18a4c8a41",
+      "name": "ماکیاتۆ هەنگوین",
+      "price": 5000,
+      "productCost": 1000,
+      "image": "/uploads/products/product-1781349308365-13565337.jpg",
+      "category": {
+        "_id": "6a2c4d0e724c7913b8f8b633",
+        "name": "کۆفی سارد"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T11:15:08.425Z",
+      "updatedAt": "2026-06-13T11:15:08.425Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2d3e50d5f005a18a4c8a76",
+      "name": "هۆرچاتا لاتێ",
+      "price": 5000,
+      "productCost": 1000,
+      "image": "/uploads/products/product-1781349968421-906375568.jpg",
+      "category": {
+        "_id": "6a2c4d0e724c7913b8f8b633",
+        "name": "کۆفی سارد"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T11:26:08.534Z",
+      "updatedAt": "2026-06-13T11:26:08.534Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2d40add5f005a18a4c8a93",
+      "name": "فرۆزن کاپۆچینۆ",
+      "price": 5000,
+      "productCost": 1000,
+      "image": "/uploads/products/product-1781350573628-453406647.jpg",
+      "category": {
+        "_id": "6a2c4d0e724c7913b8f8b633",
+        "name": "کۆفی سارد"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T11:36:13.776Z",
+      "updatedAt": "2026-06-13T11:36:13.776Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2d629cd5f005a18a4c8b1f",
+      "name": "مۆز&نۆتێلا",
+      "price": 3500,
+      "productCost": 1000,
+      "image": "/uploads/products/product-1781359260465-387045145.jpg",
+      "category": {
+        "_id": "6a2d624bd5f005a18a4c8b0f",
+        "name": "مێڵک شەیک"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T14:01:00.508Z",
+      "updatedAt": "2026-06-13T14:01:00.508Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2d62c4d5f005a18a4c8b24",
+      "name": "سپێشەڵ",
+      "price": 4000,
+      "productCost": 1000,
+      "image": "/uploads/products/product-1781359300592-551200581.jpg",
+      "category": {
+        "_id": "6a2d624bd5f005a18a4c8b0f",
+        "name": "مێڵک شەیک"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T14:01:40.630Z",
+      "updatedAt": "2026-06-13T14:01:40.630Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2d62f3d5f005a18a4c8b29",
+      "name": "شلک&نۆتێلا",
+      "price": 3500,
+      "productCost": 1000,
+      "image": "/uploads/products/product-1781359347209-411270085.jpg",
+      "category": {
+        "_id": "6a2d624bd5f005a18a4c8b0f",
+        "name": "مێڵک شەیک"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T14:02:27.256Z",
+      "updatedAt": "2026-06-13T14:02:27.256Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2d631ed5f005a18a4c8b2e",
+      "name": "شلک&ئۆریۆ",
+      "price": 3500,
+      "productCost": 1000,
+      "image": "/uploads/products/product-1781359390088-453481503.jpg",
+      "category": {
+        "_id": "6a2d624bd5f005a18a4c8b0f",
+        "name": "مێڵک شەیک"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T14:03:10.155Z",
+      "updatedAt": "2026-06-13T14:03:10.155Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2d633ed5f005a18a4c8b33",
+      "name": "بیستاشیۆ",
+      "price": 3500,
+      "productCost": 1000,
+      "image": "/uploads/products/product-1781359422865-997663246.jpg",
+      "category": {
+        "_id": "6a2d624bd5f005a18a4c8b0f",
+        "name": "مێڵک شەیک"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T14:03:42.898Z",
+      "updatedAt": "2026-06-13T14:03:42.898Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2d635ed5f005a18a4c8b38",
+      "name": "مۆز&بیستاشیۆ",
+      "price": 3500,
+      "productCost": 1580,
+      "image": "/uploads/products/product-1781359454497-774301327.jpg",
+      "category": {
+        "_id": "6a2d624bd5f005a18a4c8b0f",
+        "name": "مێڵک شەیک"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T14:04:14.545Z",
+      "updatedAt": "2026-06-13T14:04:14.545Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2d639cd5f005a18a4c8b3d",
+      "name": "شلک&مۆز",
+      "price": 3000,
+      "productCost": 1000,
+      "image": "/uploads/products/product-1781359516081-282689147.jpg",
+      "category": {
+        "_id": "6a2d624bd5f005a18a4c8b0f",
+        "name": "مێڵک شەیک"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T14:05:16.104Z",
+      "updatedAt": "2026-06-13T14:05:16.104Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2d63b5d5f005a18a4c8b42",
+      "name": "بلوکاراسۆ",
+      "price": 3000,
+      "productCost": 1000,
+      "image": "/uploads/products/product-1781359541066-473594900.jpg",
+      "category": {
+        "_id": "6a2d624bd5f005a18a4c8b0f",
+        "name": "مێڵک شەیک"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T14:05:41.110Z",
+      "updatedAt": "2026-06-13T14:05:41.110Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2d63d6d5f005a18a4c8b47",
+      "name": "جۆزهند",
+      "price": 3000,
+      "productCost": 1000,
+      "image": "/uploads/products/product-1781359574493-465004954.jpg",
+      "category": {
+        "_id": "6a2d624bd5f005a18a4c8b0f",
+        "name": "مێڵک شەیک"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T14:06:14.529Z",
+      "updatedAt": "2026-06-13T14:06:14.529Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2d63edd5f005a18a4c8b4c",
+      "name": "مۆز",
+      "price": 3000,
+      "productCost": 1000,
+      "image": "/uploads/products/product-1781359597094-489109808.jpg",
+      "category": {
+        "_id": "6a2d624bd5f005a18a4c8b0f",
+        "name": "مێڵک شەیک"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T14:06:37.135Z",
+      "updatedAt": "2026-06-13T14:06:37.135Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2d6405d5f005a18a4c8b51",
+      "name": "نۆتێلا",
+      "price": 3000,
+      "productCost": 1000,
+      "image": "/uploads/products/product-1781359621855-849365810.jpg",
+      "category": {
+        "_id": "6a2d624bd5f005a18a4c8b0f",
+        "name": "مێڵک شەیک"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T14:07:01.913Z",
+      "updatedAt": "2026-06-13T14:07:01.913Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2d642cd5f005a18a4c8b62",
+      "name": "لۆتۆس",
+      "price": 3000,
+      "productCost": 1000,
+      "image": "/uploads/products/product-1781359660145-42935095.jpg",
+      "category": {
+        "_id": "6a2d624bd5f005a18a4c8b0f",
+        "name": "مێڵک شەیک"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T14:07:40.188Z",
+      "updatedAt": "2026-06-13T14:07:40.188Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2d6449d5f005a18a4c8b67",
+      "name": "شلک",
+      "price": 3000,
+      "productCost": 1000,
+      "image": "/uploads/products/product-1781359689107-421628084.jpg",
+      "category": {
+        "_id": "6a2d624bd5f005a18a4c8b0f",
+        "name": "مێڵک شەیک"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T14:08:09.153Z",
+      "updatedAt": "2026-06-13T14:08:09.153Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2d6461d5f005a18a4c8b6c",
+      "name": "ڤانێلا",
+      "price": 3000,
+      "productCost": 1000,
+      "image": "/uploads/products/product-1781359713243-755643442.jpg",
+      "category": {
+        "_id": "6a2d624bd5f005a18a4c8b0f",
+        "name": "مێڵک شەیک"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T14:08:33.279Z",
+      "updatedAt": "2026-06-13T14:08:33.279Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2d647bd5f005a18a4c8b71",
+      "name": "بلوبێری",
+      "price": 3000,
+      "productCost": 1000,
+      "image": "/uploads/products/product-1781359739958-687495949.jpg",
+      "category": {
+        "_id": "6a2d624bd5f005a18a4c8b0f",
+        "name": "مێڵک شەیک"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T14:08:59.984Z",
+      "updatedAt": "2026-06-13T14:08:59.984Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2d6497d5f005a18a4c8b76",
+      "name": "چۆکلێت",
+      "price": 3000,
+      "productCost": 1000,
+      "image": "/uploads/products/product-1781359767283-228580395.jpg",
+      "category": {
+        "_id": "6a2d624bd5f005a18a4c8b0f",
+        "name": "مێڵک شەیک"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T14:09:27.334Z",
+      "updatedAt": "2026-06-13T14:09:27.334Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2d64b0d5f005a18a4c8b7b",
+      "name": "قاوە",
+      "price": 3000,
+      "productCost": 1000,
+      "image": "/uploads/products/product-1781359871522-385689160.jpg",
+      "category": {
+        "_id": "6a2d624bd5f005a18a4c8b0f",
+        "name": "مێڵک شەیک"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T14:09:52.997Z",
+      "updatedAt": "2026-06-13T14:11:11.578Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2d64ccd5f005a18a4c8b80",
+      "name": "مانگۆ",
+      "price": 3000,
+      "productCost": 1000,
+      "image": "/uploads/products/product-1781359820186-934454257.jpg",
+      "category": {
+        "_id": "6a2d624bd5f005a18a4c8b0f",
+        "name": "مێڵک شەیک"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T14:10:20.228Z",
+      "updatedAt": "2026-06-13T14:10:20.228Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2d6af0d5f005a18a4c8c15",
+      "name": "لیمۆ نەعنا",
+      "price": 2500,
+      "productCost": 1000,
+      "image": "/uploads/products/product-1781361391977-575378194.jpg",
+      "category": {
+        "_id": "6a2d651fd5f005a18a4c8b8c",
+        "name": "مۆهیتۆ"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T14:36:32.052Z",
+      "updatedAt": "2026-06-13T14:36:32.052Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2d6b25d5f005a18a4c8c26",
+      "name": "کێوی",
+      "price": 2500,
+      "productCost": 1000,
+      "image": "/uploads/products/product-1781361445706-763218426.jpg",
+      "category": {
+        "_id": "6a2d651fd5f005a18a4c8b8c",
+        "name": "مۆهیتۆ"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T14:37:25.743Z",
+      "updatedAt": "2026-06-13T14:37:25.743Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2d6b49d5f005a18a4c8c2b",
+      "name": "شاتو",
+      "price": 2500,
+      "productCost": 1000,
+      "image": "/uploads/products/product-1781361481634-223866989.jpg",
+      "category": {
+        "_id": "6a2d651fd5f005a18a4c8b8c",
+        "name": "مۆهیتۆ"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T14:38:01.704Z",
+      "updatedAt": "2026-06-13T14:38:01.704Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2d6b84d5f005a18a4c8c30",
+      "name": "هەنار",
+      "price": 2500,
+      "productCost": 1000,
+      "image": "/uploads/products/product-1781361540493-473779859.jpg",
+      "category": {
+        "_id": "6a2d651fd5f005a18a4c8b8c",
+        "name": "مۆهیتۆ"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T14:39:00.541Z",
+      "updatedAt": "2026-06-13T14:39:00.541Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2d6badd5f005a18a4c8c35",
+      "name": "بلوبێری",
+      "price": 2500,
+      "productCost": 1000,
+      "image": "/uploads/products/product-1781361581892-688825123.jpg",
+      "category": {
+        "_id": "6a2d651fd5f005a18a4c8b8c",
+        "name": "مۆهیتۆ"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T14:39:41.941Z",
+      "updatedAt": "2026-06-13T14:39:41.941Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2d6bd7d5f005a18a4c8c3a",
+      "name": "پرتەقاڵ&پاشنفروت",
+      "price": 3000,
+      "productCost": 1000,
+      "image": "/uploads/products/product-1781361623038-419026927.jpg",
+      "category": {
+        "_id": "6a2d651fd5f005a18a4c8b8c",
+        "name": "مۆهیتۆ"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T14:40:23.077Z",
+      "updatedAt": "2026-06-13T14:40:23.077Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2d6bebd5f005a18a4c8c3f",
+      "name": "قۆخ",
+      "price": 2500,
+      "productCost": 1000,
+      "image": "/uploads/products/product-1781361643071-649044095.jpg",
+      "category": {
+        "_id": "6a2d651fd5f005a18a4c8b8c",
+        "name": "مۆهیتۆ"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T14:40:43.126Z",
+      "updatedAt": "2026-06-13T14:40:43.126Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2d6c03d5f005a18a4c8c44",
+      "name": "ئەنەناس",
+      "price": 2500,
+      "productCost": 1000,
+      "image": "/uploads/products/product-1781361667884-947412759.jpg",
+      "category": {
+        "_id": "6a2d651fd5f005a18a4c8b8c",
+        "name": "مۆهیتۆ"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T14:41:07.923Z",
+      "updatedAt": "2026-06-13T14:41:07.923Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2d6c18d5f005a18a4c8c49",
+      "name": "گێلاس",
+      "price": 2500,
+      "productCost": 1000,
+      "image": "/uploads/products/product-1781361688553-911670296.jpg",
+      "category": {
+        "_id": "6a2d651fd5f005a18a4c8b8c",
+        "name": "مۆهیتۆ"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T14:41:28.592Z",
+      "updatedAt": "2026-06-13T14:41:28.592Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2d6c49d5f005a18a4c8c4e",
+      "name": "پاشنفروت",
+      "price": 2500,
+      "productCost": 1000,
+      "image": "/uploads/products/product-1781361737426-891810059.jpg",
+      "category": {
+        "_id": "6a2d651fd5f005a18a4c8b8c",
+        "name": "مۆهیتۆ"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T14:42:17.472Z",
+      "updatedAt": "2026-06-13T14:42:17.472Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2d6c9dd5f005a18a4c8c53",
+      "name": "پرتەقاڵ&مانگۆ",
+      "price": 3000,
+      "productCost": 1000,
+      "image": "/uploads/products/product-1781361820985-526758617.jpg",
+      "category": {
+        "_id": "6a2d651fd5f005a18a4c8b8c",
+        "name": "مۆهیتۆ"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T14:43:41.023Z",
+      "updatedAt": "2026-06-13T14:43:41.023Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2d6cbed5f005a18a4c8c58",
+      "name": "بلوهاوای",
+      "price": 3000,
+      "productCost": 1000,
+      "image": "/uploads/products/product-1781361854404-718279103.jpg",
+      "category": {
+        "_id": "6a2d651fd5f005a18a4c8b8c",
+        "name": "مۆهیتۆ"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T14:44:14.432Z",
+      "updatedAt": "2026-06-13T14:44:14.432Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2d6cd9d5f005a18a4c8c5d",
+      "name": "سپێشەڵ",
+      "price": 3000,
+      "productCost": 1000,
+      "image": "/uploads/products/product-1781361881887-69535628.jpg",
+      "category": {
+        "_id": "6a2d651fd5f005a18a4c8b8c",
+        "name": "مۆهیتۆ"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T14:44:41.926Z",
+      "updatedAt": "2026-06-13T14:44:41.926Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2d6cf8d5f005a18a4c8c62",
+      "name": "مانگۆ",
+      "price": 2500,
+      "productCost": 1000,
+      "image": "/uploads/products/product-1781361911988-644251586.jpg",
+      "category": {
+        "_id": "6a2d651fd5f005a18a4c8b8c",
+        "name": "مۆهیتۆ"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T14:45:12.012Z",
+      "updatedAt": "2026-06-13T14:45:12.012Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2d6d1ad5f005a18a4c8c67",
+      "name": "تایگەر",
+      "price": 3000,
+      "productCost": 1000,
+      "image": "/uploads/products/product-1781361946659-966162355.jpg",
+      "category": {
+        "_id": "6a2d651fd5f005a18a4c8b8c",
+        "name": "مۆهیتۆ"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T14:45:46.735Z",
+      "updatedAt": "2026-06-13T14:45:46.735Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2d6f73d5f005a18a4c8c88",
+      "name": "مەکسیکی ڕیدبۆڵ",
+      "price": 4000,
+      "productCost": 3000,
+      "image": "/uploads/products/product-1781362547489-125980074.jpg",
+      "category": {
+        "_id": "6a2d651fd5f005a18a4c8b8c",
+        "name": "مۆهیتۆ"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T14:55:47.513Z",
+      "updatedAt": "2026-06-13T14:55:47.513Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2d6f8fd5f005a18a4c8c8d",
+      "name": "ڕیدبۆڵ",
+      "price": 3000,
+      "productCost": 2500,
+      "image": "/uploads/products/product-1781362575929-453859048.jpg",
+      "category": {
+        "_id": "6a2d6d58d5f005a18a4c8c6c",
+        "name": "خواردنەوە"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T14:56:15.966Z",
+      "updatedAt": "2026-06-13T14:56:15.966Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2d6faad5f005a18a4c8c92",
+      "name": "ئاو",
+      "price": 250,
+      "productCost": 100,
+      "image": "/uploads/products/product-1781362602341-142457776.jpg",
+      "category": {
+        "_id": "6a2d6d58d5f005a18a4c8c6c",
+        "name": "خواردنەوە"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T14:56:42.389Z",
+      "updatedAt": "2026-06-13T14:56:42.389Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2d6fc8d5f005a18a4c8c97",
+      "name": "تایگەر",
+      "price": 1500,
+      "productCost": 1000,
+      "image": "/uploads/products/product-1781362631991-813155711.jpg",
+      "category": {
+        "_id": "6a2d6d58d5f005a18a4c8c6c",
+        "name": "خواردنەوە"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T14:57:12.035Z",
+      "updatedAt": "2026-06-13T14:57:12.035Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2d6fecd5f005a18a4c8c9c",
+      "name": "سوپرایت",
+      "price": 500,
+      "productCost": 250,
+      "image": "/uploads/products/product-1781362668844-871459862.jpg",
+      "category": {
+        "_id": "6a2d6d58d5f005a18a4c8c6c",
+        "name": "خواردنەوە"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T14:57:48.895Z",
+      "updatedAt": "2026-06-13T14:57:48.895Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2d7048d5f005a18a4c8ca1",
+      "name": "مەکسیکی تایگەر سپێشڵ",
+      "price": 3000,
+      "productCost": 1500,
+      "image": "/uploads/products/product-1781362760027-479819504.jpg",
+      "category": {
+        "_id": "6a2d651fd5f005a18a4c8b8c",
+        "name": "مۆهیتۆ"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T14:59:20.077Z",
+      "updatedAt": "2026-06-13T14:59:20.077Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2d70d6d5f005a18a4c8cb2",
+      "name": "مەکسیکی تایگەر سادە",
+      "price": 2500,
+      "productCost": 1000,
+      "image": "/uploads/products/product-1781362902724-775219172.jpg",
+      "category": {
+        "_id": "6a2d651fd5f005a18a4c8b8c",
+        "name": "مۆهیتۆ"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T15:01:42.822Z",
+      "updatedAt": "2026-06-13T15:01:42.822Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2d943767fd10f54e0ea14c",
+      "name": "کرۆسانت چۆکلێت",
+      "price": 3000,
+      "productCost": 2000,
+      "image": "/uploads/products/product-1781371959030-96967265.jpg",
+      "category": {
+        "_id": "6a2c2e18086297589c3d6e27",
+        "name": "Bakery"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T17:32:39.218Z",
+      "updatedAt": "2026-06-13T17:32:39.218Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2d948d67fd10f54e0ea151",
+      "name": "کرۆسانت بستاشیۆ",
+      "price": 4000,
+      "productCost": 3000,
+      "image": "/uploads/products/product-1781372045828-683765855.jpg",
+      "category": {
+        "_id": "6a2c2e18086297589c3d6e27",
+        "name": "Bakery"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T17:34:05.938Z",
+      "updatedAt": "2026-06-13T17:34:05.938Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2d94c167fd10f54e0ea156",
+      "name": "سایمۆنڕۆڵ",
+      "price": 3000,
+      "productCost": 2500,
+      "image": "/uploads/products/product-1781372097303-565869588.jpg",
+      "category": {
+        "_id": "6a2c2e18086297589c3d6e27",
+        "name": "Bakery"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T17:34:57.401Z",
+      "updatedAt": "2026-06-13T17:34:57.401Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2d94f367fd10f54e0ea15b",
+      "name": "تراڵیچە",
+      "price": 2500,
+      "productCost": 1500,
+      "image": "/uploads/products/product-1781372147777-522221890.jpg",
+      "category": {
+        "_id": "6a2c2e18086297589c3d6e27",
+        "name": "Bakery"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T17:35:47.860Z",
+      "updatedAt": "2026-06-13T17:35:47.860Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2d951b67fd10f54e0ea160",
+      "name": "کوکیز",
+      "price": 3000,
+      "productCost": 2500,
+      "image": "/uploads/products/product-1781372187384-782633050.jpg",
+      "category": {
+        "_id": "6a2c2e18086297589c3d6e27",
+        "name": "Bakery"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T17:36:27.475Z",
+      "updatedAt": "2026-06-13T17:36:27.475Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2d953767fd10f54e0ea165",
+      "name": "کوکیزی",
+      "price": 3000,
+      "productCost": 2500,
+      "image": "/uploads/products/product-1781372215626-504523730.jpg",
+      "category": {
+        "_id": "6a2c2e18086297589c3d6e27",
+        "name": "Bakery"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T17:36:55.729Z",
+      "updatedAt": "2026-06-13T17:36:55.729Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2d956367fd10f54e0ea16a",
+      "name": "ئەپڵپای",
+      "price": 3000,
+      "productCost": 2500,
+      "image": "/uploads/products/product-1781372259232-957044570.jpg",
+      "category": {
+        "_id": "6a2c2e18086297589c3d6e27",
+        "name": "Bakery"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T17:37:39.272Z",
+      "updatedAt": "2026-06-13T17:37:39.272Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2d959167fd10f54e0ea16f",
+      "name": "پانکێک ی سادە",
+      "price": 2500,
+      "productCost": 1500,
+      "image": "/uploads/products/product-1781372305218-764300551.jpg",
+      "category": {
+        "_id": "6a2c2e18086297589c3d6e27",
+        "name": "Bakery"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T17:38:25.461Z",
+      "updatedAt": "2026-06-13T17:38:25.461Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2d95e967fd10f54e0ea174",
+      "name": "پانکێکی موشەکەل گەورە",
+      "price": 6000,
+      "productCost": 2500,
+      "image": "/uploads/products/product-1781372393068-960289212.jpg",
+      "category": {
+        "_id": "6a2c2e18086297589c3d6e27",
+        "name": "Bakery"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T17:39:53.168Z",
+      "updatedAt": "2026-06-13T17:39:53.168Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2d961667fd10f54e0ea179",
+      "name": "پانکێکی موشەکەل",
+      "price": 4000,
+      "productCost": 1500,
+      "image": "/uploads/products/product-1781372438018-35826951.jpg",
+      "category": {
+        "_id": "6a2c2e18086297589c3d6e27",
+        "name": "Bakery"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T17:40:38.243Z",
+      "updatedAt": "2026-06-13T17:40:38.243Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2d966567fd10f54e0ea17e",
+      "name": "وافڵی موشەکەل گەورە",
+      "price": 6000,
+      "productCost": 2500,
+      "image": "/uploads/products/product-1781372517039-414676498.jpg",
+      "category": {
+        "_id": "6a2c2e18086297589c3d6e27",
+        "name": "Bakery"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T17:41:57.101Z",
+      "updatedAt": "2026-06-13T17:41:57.101Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2d968f67fd10f54e0ea183",
+      "name": "وافڵی موشەکەل",
+      "price": 4000,
+      "productCost": 1500,
+      "image": "/uploads/products/product-1781372559038-269838708.jpg",
+      "category": {
+        "_id": "6a2c2e18086297589c3d6e27",
+        "name": "Bakery"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T17:42:39.175Z",
+      "updatedAt": "2026-06-13T17:42:39.175Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2da08867fd10f54e0ea1b1",
+      "name": "شلک نۆتێلا",
+      "price": 3000,
+      "productCost": 1000,
+      "image": "/uploads/products/product-1781375112570-949163063.jpg",
+      "category": {
+        "_id": "6a2c2e4d086297589c3d6e2f",
+        "name": "شەربەتی فرێش"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T18:25:12.702Z",
+      "updatedAt": "2026-06-13T18:25:12.702Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2da0ab67fd10f54e0ea1b6",
+      "name": "مۆز و مانگۆ",
+      "price": 3000,
+      "productCost": 1000,
+      "image": "/uploads/products/product-1781375146990-230948156.jpg",
+      "category": {
+        "_id": "6a2c2e4d086297589c3d6e2f",
+        "name": "شەربەتی فرێش"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T18:25:47.044Z",
+      "updatedAt": "2026-06-13T18:25:47.044Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2da0e267fd10f54e0ea1bb",
+      "name": "مۆز وبیستاشیۆ",
+      "price": 3000,
+      "productCost": 1000,
+      "image": "/uploads/products/product-1781375202199-810344103.jpg",
+      "category": {
+        "_id": "6a2c2e4d086297589c3d6e2f",
+        "name": "شەربەتی فرێش"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T18:26:42.315Z",
+      "updatedAt": "2026-06-13T18:26:42.315Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2da0fb67fd10f54e0ea1c0",
+      "name": "مۆز ونۆتێلا",
+      "price": 3000,
+      "productCost": 1000,
+      "image": "/uploads/products/product-1781375227657-622911145.jpg",
+      "category": {
+        "_id": "6a2c2e4d086297589c3d6e2f",
+        "name": "شەربەتی فرێش"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T18:27:07.900Z",
+      "updatedAt": "2026-06-13T18:27:07.900Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2da11c67fd10f54e0ea1c5",
+      "name": "مۆز",
+      "price": 200,
+      "productCost": 1000,
+      "image": "/uploads/products/product-1781375259964-533829075.jpg",
+      "category": {
+        "_id": "6a2c2e4d086297589c3d6e2f",
+        "name": "شەربەتی فرێش"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T18:27:40.014Z",
+      "updatedAt": "2026-06-13T18:27:40.014Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2da14367fd10f54e0ea1ca",
+      "name": "مۆز و شلک و ئەنەناس",
+      "price": 3000,
+      "productCost": 1000,
+      "image": "/uploads/products/product-1781375299274-78912856.jpg",
+      "category": {
+        "_id": "6a2c2e4d086297589c3d6e2f",
+        "name": "شەربەتی فرێش"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T18:28:19.356Z",
+      "updatedAt": "2026-06-13T18:36:28.323Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2da16167fd10f54e0ea1cf",
+      "name": "مۆز و ئەنەناس",
+      "price": 3000,
+      "productCost": 1000,
+      "image": "/uploads/products/product-1781375329052-428571098.jpg",
+      "category": {
+        "_id": "6a2c2e4d086297589c3d6e2f",
+        "name": "شەربەتی فرێش"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T18:28:49.189Z",
+      "updatedAt": "2026-06-13T18:28:49.189Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2da1ae67fd10f54e0ea1d4",
+      "name": "شلک و ئەنەناس",
+      "price": 3000,
+      "productCost": 1000,
+      "image": "/uploads/products/product-1781375406139-408082255.jpg",
+      "category": {
+        "_id": "6a2c2e4d086297589c3d6e2f",
+        "name": "شەربەتی فرێش"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T18:30:06.220Z",
+      "updatedAt": "2026-06-13T18:30:06.220Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2da1d067fd10f54e0ea1d9",
+      "name": "کاڵەک",
+      "price": 2000,
+      "productCost": 1000,
+      "image": "/uploads/products/product-1781375440520-764613006.jpg",
+      "category": {
+        "_id": "6a2c2e4d086297589c3d6e2f",
+        "name": "شەربەتی فرێش"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T18:30:40.698Z",
+      "updatedAt": "2026-06-13T18:30:40.698Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2da1ef67fd10f54e0ea1de",
+      "name": "شلک",
+      "price": 2500,
+      "productCost": 1000,
+      "image": "/uploads/products/product-1781375470933-230147787.jpg",
+      "category": {
+        "_id": "6a2c2e4d086297589c3d6e2f",
+        "name": "شەربەتی فرێش"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T18:31:11.020Z",
+      "updatedAt": "2026-06-13T18:31:11.020Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2da21767fd10f54e0ea1e3",
+      "name": "لیمۆ نەعنا",
+      "price": 2500,
+      "productCost": 1000,
+      "image": "/uploads/products/product-1781375511090-43461793.jpg",
+      "category": {
+        "_id": "6a2c2e4d086297589c3d6e2f",
+        "name": "شەربەتی فرێش"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T18:31:51.173Z",
+      "updatedAt": "2026-06-13T18:31:51.173Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2da24367fd10f54e0ea1e8",
+      "name": "سێو لیمۆ زەنجەفیل",
+      "price": 3000,
+      "productCost": 1500,
+      "image": "/uploads/products/product-1781375555665-633279035.jpg",
+      "category": {
+        "_id": "6a2c2e4d086297589c3d6e2f",
+        "name": "شەربەتی فرێش"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T18:32:35.767Z",
+      "updatedAt": "2026-06-13T18:32:35.767Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2da26e67fd10f54e0ea1ed",
+      "name": "لیمۆ هەنگوین زەنجەفیل",
+      "price": 3000,
+      "productCost": 1000,
+      "image": "/uploads/products/product-1781375598149-270940652.jpg",
+      "category": {
+        "_id": "6a2c2e4d086297589c3d6e2f",
+        "name": "شەربەتی فرێش"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T18:33:18.479Z",
+      "updatedAt": "2026-06-13T18:33:18.479Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2da29467fd10f54e0ea1f2",
+      "name": "مانگۆ",
+      "price": 3000,
+      "productCost": 1500,
+      "image": "/uploads/products/product-1781375636010-142872067.jpg",
+      "category": {
+        "_id": "6a2c2e4d086297589c3d6e2f",
+        "name": "شەربەتی فرێش"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T18:33:56.098Z",
+      "updatedAt": "2026-06-13T18:33:56.098Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2da2ab67fd10f54e0ea1f7",
+      "name": "قۆخ",
+      "price": 2500,
+      "productCost": 1000,
+      "image": "/uploads/products/product-1781375659496-537712205.jpg",
+      "category": {
+        "_id": "6a2c2e4d086297589c3d6e2f",
+        "name": "شەربەتی فرێش"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T18:34:19.571Z",
+      "updatedAt": "2026-06-13T18:34:19.571Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2da41f67fd10f54e0ea250",
+      "name": "پرتەقاڵ",
+      "price": 2000,
+      "productCost": 1000,
+      "image": "/uploads/products/product-1781376031250-973969380.jpg",
+      "category": {
+        "_id": "6a2c2e4d086297589c3d6e2f",
+        "name": "شەربەتی فرێش"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T18:40:31.372Z",
+      "updatedAt": "2026-06-13T18:40:31.372Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2da52767fd10f54e0ea261",
+      "name": "پرتەقاڵ و لیمۆ",
+      "price": 2000,
+      "productCost": 1000,
+      "image": "/uploads/products/product-1781376295327-270359780.jpg",
+      "category": {
+        "_id": "6a2c2e4d086297589c3d6e2f",
+        "name": "شەربەتی فرێش"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T18:44:55.412Z",
+      "updatedAt": "2026-06-13T18:44:55.412Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2da55067fd10f54e0ea266",
+      "name": "زەنجەفیل لیمۆ پڕتەقاڵ",
+      "price": 3000,
+      "productCost": 1000,
+      "image": "/uploads/products/product-1781376336885-764534771.jpg",
+      "category": {
+        "_id": "6a2c2e4d086297589c3d6e2f",
+        "name": "شەربەتی فرێش"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T18:45:36.942Z",
+      "updatedAt": "2026-06-13T18:45:36.942Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2da5c767fd10f54e0ea277",
+      "name": "سێوی سەوز",
+      "price": 2500,
+      "productCost": 1000,
+      "image": "/uploads/products/product-1781376455656-432788957.jpg",
+      "category": {
+        "_id": "6a2c2e4d086297589c3d6e2f",
+        "name": "شەربەتی فرێش"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T18:47:35.732Z",
+      "updatedAt": "2026-06-13T18:47:35.732Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2da7d867fd10f54e0ea313",
+      "name": "گرانادین",
+      "price": 2500,
+      "productCost": 1000,
+      "image": "/uploads/products/product-1781376984486-786113905.jpg",
+      "category": {
+        "_id": "6a2d651fd5f005a18a4c8b8c",
+        "name": "مۆهیتۆ"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T18:56:24.576Z",
+      "updatedAt": "2026-06-13T18:56:24.576Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2da83667fd10f54e0ea330",
+      "name": "سپێشەڵ",
+      "price": 3000,
+      "productCost": 1000,
+      "image": "/uploads/products/product-1781377078335-307009210.jpg",
+      "category": {
+        "_id": "6a2d651fd5f005a18a4c8b8c",
+        "name": "مۆهیتۆ"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-13T18:57:58.388Z",
+      "updatedAt": "2026-06-13T18:57:58.388Z",
       "__v": 0
     }
   ]
