@@ -1,25 +1,11 @@
 {
-  "updatedAt": "2026-06-13T19:37:28.867Z",
+  "updatedAt": "2026-06-16T14:49:05.490Z",
   "categories": [
     {
-      "_id": "6a2c17c9724a58b5c90bbeec",
-      "name": "Drinks",
-      "createdAt": "2026-06-12T14:29:29.589Z",
-      "updatedAt": "2026-06-12T14:29:29.589Z",
-      "__v": 0
-    },
-    {
       "_id": "6a2c2e18086297589c3d6e27",
-      "name": "Bakery",
+      "name": "بەیکەری",
       "createdAt": "2026-06-12T16:04:40.998Z",
-      "updatedAt": "2026-06-12T16:04:40.998Z",
-      "__v": 0
-    },
-    {
-      "_id": "6a2c2e2a086297589c3d6e2b",
-      "name": "Mojito",
-      "createdAt": "2026-06-12T16:04:58.949Z",
-      "updatedAt": "2026-06-12T16:04:58.949Z",
+      "updatedAt": "2026-06-14T12:52:40.079Z",
       "__v": 0
     },
     {
@@ -67,22 +53,6 @@
   ],
   "products": [
     {
-      "_id": "6a2c17f4724a58b5c90bbef0",
-      "name": "Water",
-      "price": 250,
-      "productCost": 100,
-      "image": "",
-      "category": {
-        "_id": "6a2c17c9724a58b5c90bbeec",
-        "name": "Drinks"
-      },
-      "department": "kitchen",
-      "isAvailable": true,
-      "createdAt": "2026-06-12T14:30:12.159Z",
-      "updatedAt": "2026-06-12T17:47:41.207Z",
-      "__v": 0
-    },
-    {
       "_id": "6a2c42863538664b7f50752b",
       "name": "پرتەقاڵ",
       "price": 2000,
@@ -95,7 +65,7 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-12T17:31:50.530Z",
-      "updatedAt": "2026-06-12T17:47:41.207Z",
+      "updatedAt": "2026-06-16T13:58:20.017Z",
       "__v": 0
     },
     {
@@ -111,7 +81,7 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-12T18:00:44.604Z",
-      "updatedAt": "2026-06-12T18:10:05.990Z",
+      "updatedAt": "2026-06-15T19:44:43.146Z",
       "__v": 0
     },
     {
@@ -127,7 +97,7 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-12T18:25:43.836Z",
-      "updatedAt": "2026-06-12T18:25:43.836Z",
+      "updatedAt": "2026-06-16T14:48:53.040Z",
       "__v": 0
     },
     {
@@ -143,7 +113,7 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-12T18:48:31.638Z",
-      "updatedAt": "2026-06-12T18:48:31.638Z",
+      "updatedAt": "2026-06-16T14:33:05.089Z",
       "__v": 0
     },
     {
@@ -159,7 +129,7 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-12T19:47:44.987Z",
-      "updatedAt": "2026-06-12T19:47:44.987Z",
+      "updatedAt": "2026-06-15T15:35:18.494Z",
       "__v": 0
     },
     {
@@ -175,7 +145,7 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-12T20:31:44.645Z",
-      "updatedAt": "2026-06-12T20:31:44.645Z",
+      "updatedAt": "2026-06-14T15:55:59.452Z",
       "__v": 0
     },
     {
@@ -191,7 +161,7 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-12T20:32:49.010Z",
-      "updatedAt": "2026-06-12T20:32:49.010Z",
+      "updatedAt": "2026-06-15T21:41:37.256Z",
       "__v": 0
     },
     {
@@ -287,7 +257,7 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T08:37:22.064Z",
-      "updatedAt": "2026-06-13T08:37:22.064Z",
+      "updatedAt": "2026-06-15T15:32:01.521Z",
       "__v": 0
     },
     {
@@ -319,7 +289,7 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T08:46:28.952Z",
-      "updatedAt": "2026-06-13T08:46:28.952Z",
+      "updatedAt": "2026-06-15T16:21:57.147Z",
       "__v": 0
     },
     {
@@ -335,7 +305,7 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T08:47:18.904Z",
-      "updatedAt": "2026-06-13T08:47:41.782Z",
+      "updatedAt": "2026-06-16T13:18:40.647Z",
       "__v": 0
     },
     {
@@ -351,7 +321,7 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T08:53:30.171Z",
-      "updatedAt": "2026-06-13T09:08:26.114Z",
+      "updatedAt": "2026-06-15T21:31:42.603Z",
       "__v": 0
     },
     {
@@ -367,7 +337,7 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T09:04:18.878Z",
-      "updatedAt": "2026-06-13T09:04:18.878Z",
+      "updatedAt": "2026-06-15T16:05:14.288Z",
       "__v": 0
     },
     {
@@ -383,7 +353,7 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T09:04:49.524Z",
-      "updatedAt": "2026-06-13T09:04:49.524Z",
+      "updatedAt": "2026-06-15T19:00:16.744Z",
       "__v": 0
     },
     {
@@ -399,7 +369,7 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T09:05:23.856Z",
-      "updatedAt": "2026-06-13T09:05:23.856Z",
+      "updatedAt": "2026-06-15T15:35:43.722Z",
       "__v": 0
     },
     {
@@ -484,7 +454,7 @@
     },
     {
       "_id": "6a2d35c2d5f005a18a4c899c",
-      "name": "ئەمریکانۆ سنگڵ",
+      "name": "ئایس ئەمریکانۆ سنگڵ",
       "price": 2000,
       "productCost": 1000,
       "image": "/uploads/products/product-1781347777882-278129165.jpg",
@@ -495,12 +465,12 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T10:49:38.094Z",
-      "updatedAt": "2026-06-13T10:49:38.094Z",
+      "updatedAt": "2026-06-15T21:26:47.624Z",
       "__v": 0
     },
     {
       "_id": "6a2d369fd5f005a18a4c89ad",
-      "name": "V60",
+      "name": "ئایس V60",
       "price": 6000,
       "productCost": 1000,
       "image": "/uploads/products/product-1781347999401-605647512.jpg",
@@ -511,12 +481,12 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T10:53:19.485Z",
-      "updatedAt": "2026-06-13T10:53:19.485Z",
+      "updatedAt": "2026-06-14T13:01:35.053Z",
       "__v": 0
     },
     {
       "_id": "6a2d36ccd5f005a18a4c89b2",
-      "name": "کۆلۆ بریو",
+      "name": "کۆڵد بریو",
       "price": 4000,
       "productCost": 1000,
       "image": "/uploads/products/product-1781348043979-503559394.jpg",
@@ -527,12 +497,12 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T10:54:04.092Z",
-      "updatedAt": "2026-06-13T10:54:04.092Z",
+      "updatedAt": "2026-06-14T13:00:40.093Z",
       "__v": 0
     },
     {
       "_id": "6a2d36e7d5f005a18a4c89b7",
-      "name": "لاتێ",
+      "name": "ئایس لاتێ",
       "price": 3000,
       "productCost": 1000,
       "image": "/uploads/products/product-1781348071811-807224254.jpg",
@@ -543,12 +513,12 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T10:54:31.926Z",
-      "updatedAt": "2026-06-13T10:54:31.926Z",
+      "updatedAt": "2026-06-15T13:55:08.672Z",
       "__v": 0
     },
     {
       "_id": "6a2d370bd5f005a18a4c89bc",
-      "name": "لاتێ ڤانێلا",
+      "name": "ئایس لاتێ ڤانێلا",
       "price": 3500,
       "productCost": 1000,
       "image": "/uploads/products/product-1781348107615-971332516.jpg",
@@ -559,12 +529,12 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T10:55:07.705Z",
-      "updatedAt": "2026-06-13T10:55:07.705Z",
+      "updatedAt": "2026-06-15T15:32:01.521Z",
       "__v": 0
     },
     {
       "_id": "6a2d3728d5f005a18a4c89c1",
-      "name": "لاتێ کەرەمێڵ",
+      "name": "ئایس لاتێ کەرەمێڵ",
       "price": 3500,
       "productCost": 1000,
       "image": "/uploads/products/product-1781348135912-652505942.jpg",
@@ -575,12 +545,12 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T10:55:36.088Z",
-      "updatedAt": "2026-06-13T10:55:36.088Z",
+      "updatedAt": "2026-06-14T15:55:59.452Z",
       "__v": 0
     },
     {
       "_id": "6a2d3745d5f005a18a4c89c6",
-      "name": "لاتێ دارچین",
+      "name": "ئایس لاتێ دارچین",
       "price": 3500,
       "productCost": 1000,
       "image": "/uploads/products/product-1781348165092-714135279.jpg",
@@ -591,12 +561,12 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T10:56:05.164Z",
-      "updatedAt": "2026-06-13T10:56:05.164Z",
+      "updatedAt": "2026-06-14T12:58:53.980Z",
       "__v": 0
     },
     {
       "_id": "6a2d376ad5f005a18a4c89cb",
-      "name": "لاتێ گوێزهند",
+      "name": "ئایس لاتێ گوێزهند",
       "price": 3500,
       "productCost": 1000,
       "image": "/uploads/products/product-1781348202779-314817221.jpg",
@@ -607,12 +577,12 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T10:56:42.919Z",
-      "updatedAt": "2026-06-13T10:56:42.919Z",
+      "updatedAt": "2026-06-14T12:59:24.979Z",
       "__v": 0
     },
     {
       "_id": "6a2d378dd5f005a18a4c89dc",
-      "name": "سپانش لاتێ",
+      "name": "ئایس سپانش لاتێ",
       "price": 3500,
       "productCost": 1000,
       "image": "/uploads/products/product-1781348237046-619477805.jpg",
@@ -623,12 +593,12 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T10:57:17.178Z",
-      "updatedAt": "2026-06-13T10:57:17.178Z",
+      "updatedAt": "2026-06-15T16:37:50.908Z",
       "__v": 0
     },
     {
       "_id": "6a2d37bed5f005a18a4c89e1",
-      "name": "مۆکا",
+      "name": "ئایس مۆکا",
       "price": 3500,
       "productCost": 1000,
       "image": "/uploads/products/product-1781348286170-440745800.jpg",
@@ -639,12 +609,12 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T10:58:06.248Z",
-      "updatedAt": "2026-06-13T10:58:06.248Z",
+      "updatedAt": "2026-06-14T12:58:02.698Z",
       "__v": 0
     },
     {
       "_id": "6a2d37ded5f005a18a4c89e6",
-      "name": "لاتێ بستاشیۆ",
+      "name": "ئایس لاتێ بستاشیۆ",
       "price": 4000,
       "productCost": 1000,
       "image": "/uploads/products/product-1781348318578-706353230.jpg",
@@ -655,7 +625,7 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T10:58:38.796Z",
-      "updatedAt": "2026-06-13T10:58:38.796Z",
+      "updatedAt": "2026-06-15T15:32:01.521Z",
       "__v": 0
     },
     {
@@ -703,7 +673,7 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T11:05:35.831Z",
-      "updatedAt": "2026-06-13T11:05:35.831Z",
+      "updatedAt": "2026-06-14T12:49:01.815Z",
       "__v": 0
     },
     {
@@ -719,7 +689,7 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T11:06:17.258Z",
-      "updatedAt": "2026-06-13T11:06:17.258Z",
+      "updatedAt": "2026-06-14T12:48:58.541Z",
       "__v": 0
     },
     {
@@ -735,7 +705,7 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T11:07:10.789Z",
-      "updatedAt": "2026-06-13T11:07:10.789Z",
+      "updatedAt": "2026-06-15T19:06:18.919Z",
       "__v": 0
     },
     {
@@ -847,7 +817,7 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T11:26:08.534Z",
-      "updatedAt": "2026-06-13T11:26:08.534Z",
+      "updatedAt": "2026-06-14T15:29:26.230Z",
       "__v": 0
     },
     {
@@ -868,7 +838,7 @@
     },
     {
       "_id": "6a2d629cd5f005a18a4c8b1f",
-      "name": "مۆز&نۆتێلا",
+      "name": "شەیکی مۆز&نۆتێلا",
       "price": 3500,
       "productCost": 1000,
       "image": "/uploads/products/product-1781359260465-387045145.jpg",
@@ -879,12 +849,12 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T14:01:00.508Z",
-      "updatedAt": "2026-06-13T14:01:00.508Z",
+      "updatedAt": "2026-06-14T13:08:36.379Z",
       "__v": 0
     },
     {
       "_id": "6a2d62c4d5f005a18a4c8b24",
-      "name": "سپێشەڵ",
+      "name": "شەیکی سپێشەڵ",
       "price": 4000,
       "productCost": 1000,
       "image": "/uploads/products/product-1781359300592-551200581.jpg",
@@ -895,12 +865,12 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T14:01:40.630Z",
-      "updatedAt": "2026-06-13T14:01:40.630Z",
+      "updatedAt": "2026-06-15T16:09:24.077Z",
       "__v": 0
     },
     {
       "_id": "6a2d62f3d5f005a18a4c8b29",
-      "name": "شلک&نۆتێلا",
+      "name": "شەیکی شلک&نۆتێلا",
       "price": 3500,
       "productCost": 1000,
       "image": "/uploads/products/product-1781359347209-411270085.jpg",
@@ -911,12 +881,12 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T14:02:27.256Z",
-      "updatedAt": "2026-06-13T14:02:27.256Z",
+      "updatedAt": "2026-06-14T13:08:18.201Z",
       "__v": 0
     },
     {
       "_id": "6a2d631ed5f005a18a4c8b2e",
-      "name": "شلک&ئۆریۆ",
+      "name": "شەیکی شلک&ئۆریۆ",
       "price": 3500,
       "productCost": 1000,
       "image": "/uploads/products/product-1781359390088-453481503.jpg",
@@ -927,12 +897,12 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T14:03:10.155Z",
-      "updatedAt": "2026-06-13T14:03:10.155Z",
+      "updatedAt": "2026-06-14T13:04:30.258Z",
       "__v": 0
     },
     {
       "_id": "6a2d633ed5f005a18a4c8b33",
-      "name": "بیستاشیۆ",
+      "name": "شەیکی بیستاشیۆ",
       "price": 3500,
       "productCost": 1000,
       "image": "/uploads/products/product-1781359422865-997663246.jpg",
@@ -943,12 +913,12 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T14:03:42.898Z",
-      "updatedAt": "2026-06-13T14:03:42.898Z",
+      "updatedAt": "2026-06-16T07:54:31.382Z",
       "__v": 0
     },
     {
       "_id": "6a2d635ed5f005a18a4c8b38",
-      "name": "مۆز&بیستاشیۆ",
+      "name": "شەیکی مۆز&بیستاشیۆ",
       "price": 3500,
       "productCost": 1580,
       "image": "/uploads/products/product-1781359454497-774301327.jpg",
@@ -959,12 +929,12 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T14:04:14.545Z",
-      "updatedAt": "2026-06-13T14:04:14.545Z",
+      "updatedAt": "2026-06-14T13:07:52.258Z",
       "__v": 0
     },
     {
       "_id": "6a2d639cd5f005a18a4c8b3d",
-      "name": "شلک&مۆز",
+      "name": "شەیکی شلک&مۆز",
       "price": 3000,
       "productCost": 1000,
       "image": "/uploads/products/product-1781359516081-282689147.jpg",
@@ -975,12 +945,12 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T14:05:16.104Z",
-      "updatedAt": "2026-06-13T14:05:16.104Z",
+      "updatedAt": "2026-06-15T16:37:50.908Z",
       "__v": 0
     },
     {
       "_id": "6a2d63b5d5f005a18a4c8b42",
-      "name": "بلوکاراسۆ",
+      "name": "شەیکی بلوکاراسۆ",
       "price": 3000,
       "productCost": 1000,
       "image": "/uploads/products/product-1781359541066-473594900.jpg",
@@ -991,12 +961,12 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T14:05:41.110Z",
-      "updatedAt": "2026-06-13T14:05:41.110Z",
+      "updatedAt": "2026-06-14T13:07:35.214Z",
       "__v": 0
     },
     {
       "_id": "6a2d63d6d5f005a18a4c8b47",
-      "name": "جۆزهند",
+      "name": "شەیکی جۆزهند",
       "price": 3000,
       "productCost": 1000,
       "image": "/uploads/products/product-1781359574493-465004954.jpg",
@@ -1007,12 +977,12 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T14:06:14.529Z",
-      "updatedAt": "2026-06-13T14:06:14.529Z",
+      "updatedAt": "2026-06-14T13:07:27.433Z",
       "__v": 0
     },
     {
       "_id": "6a2d63edd5f005a18a4c8b4c",
-      "name": "مۆز",
+      "name": "شەیکی مۆز",
       "price": 3000,
       "productCost": 1000,
       "image": "/uploads/products/product-1781359597094-489109808.jpg",
@@ -1023,12 +993,12 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T14:06:37.135Z",
-      "updatedAt": "2026-06-13T14:06:37.135Z",
+      "updatedAt": "2026-06-16T14:09:17.990Z",
       "__v": 0
     },
     {
       "_id": "6a2d6405d5f005a18a4c8b51",
-      "name": "نۆتێلا",
+      "name": "شەیکی نۆتێلا",
       "price": 3000,
       "productCost": 1000,
       "image": "/uploads/products/product-1781359621855-849365810.jpg",
@@ -1039,12 +1009,12 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T14:07:01.913Z",
-      "updatedAt": "2026-06-13T19:33:43.796Z",
+      "updatedAt": "2026-06-16T07:54:31.382Z",
       "__v": 0
     },
     {
       "_id": "6a2d642cd5f005a18a4c8b62",
-      "name": "لۆتۆس",
+      "name": "شەیکی لۆتۆس",
       "price": 3000,
       "productCost": 1000,
       "image": "/uploads/products/product-1781359660145-42935095.jpg",
@@ -1055,12 +1025,12 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T14:07:40.188Z",
-      "updatedAt": "2026-06-13T14:07:40.188Z",
+      "updatedAt": "2026-06-14T13:07:01.519Z",
       "__v": 0
     },
     {
       "_id": "6a2d6449d5f005a18a4c8b67",
-      "name": "شلک",
+      "name": "شەیکی شلک",
       "price": 3000,
       "productCost": 1000,
       "image": "/uploads/products/product-1781359689107-421628084.jpg",
@@ -1071,12 +1041,12 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T14:08:09.153Z",
-      "updatedAt": "2026-06-13T14:08:09.153Z",
+      "updatedAt": "2026-06-14T13:06:51.175Z",
       "__v": 0
     },
     {
       "_id": "6a2d6461d5f005a18a4c8b6c",
-      "name": "ڤانێلا",
+      "name": "شەیکی ڤانێلا",
       "price": 3000,
       "productCost": 1000,
       "image": "/uploads/products/product-1781359713243-755643442.jpg",
@@ -1087,12 +1057,12 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T14:08:33.279Z",
-      "updatedAt": "2026-06-13T14:08:33.279Z",
+      "updatedAt": "2026-06-15T15:03:59.229Z",
       "__v": 0
     },
     {
       "_id": "6a2d647bd5f005a18a4c8b71",
-      "name": "بلوبێری",
+      "name": "شەیکی بلوبێری",
       "price": 3000,
       "productCost": 1000,
       "image": "/uploads/products/product-1781359739958-687495949.jpg",
@@ -1103,12 +1073,12 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T14:08:59.984Z",
-      "updatedAt": "2026-06-13T14:08:59.984Z",
+      "updatedAt": "2026-06-14T13:06:33.030Z",
       "__v": 0
     },
     {
       "_id": "6a2d6497d5f005a18a4c8b76",
-      "name": "چۆکلێت",
+      "name": "شەیکی چۆکلێت",
       "price": 3000,
       "productCost": 1000,
       "image": "/uploads/products/product-1781359767283-228580395.jpg",
@@ -1119,12 +1089,12 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T14:09:27.334Z",
-      "updatedAt": "2026-06-13T14:09:27.334Z",
+      "updatedAt": "2026-06-14T13:06:18.051Z",
       "__v": 0
     },
     {
       "_id": "6a2d64b0d5f005a18a4c8b7b",
-      "name": "قاوە",
+      "name": "شەیکی قاوە",
       "price": 3000,
       "productCost": 1000,
       "image": "/uploads/products/product-1781359871522-385689160.jpg",
@@ -1135,12 +1105,12 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T14:09:52.997Z",
-      "updatedAt": "2026-06-13T14:11:11.578Z",
+      "updatedAt": "2026-06-14T13:06:06.512Z",
       "__v": 0
     },
     {
       "_id": "6a2d64ccd5f005a18a4c8b80",
-      "name": "مانگۆ",
+      "name": "شەیکی مانگۆ",
       "price": 3000,
       "productCost": 1000,
       "image": "/uploads/products/product-1781359820186-934454257.jpg",
@@ -1151,7 +1121,7 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T14:10:20.228Z",
-      "updatedAt": "2026-06-13T14:10:20.228Z",
+      "updatedAt": "2026-06-14T13:05:52.504Z",
       "__v": 0
     },
     {
@@ -1167,7 +1137,7 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T14:36:32.052Z",
-      "updatedAt": "2026-06-13T19:33:46.085Z",
+      "updatedAt": "2026-06-16T10:10:45.865Z",
       "__v": 0
     },
     {
@@ -1199,7 +1169,7 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T14:38:01.704Z",
-      "updatedAt": "2026-06-13T14:38:01.704Z",
+      "updatedAt": "2026-06-16T14:09:17.989Z",
       "__v": 0
     },
     {
@@ -1215,7 +1185,7 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T14:39:00.541Z",
-      "updatedAt": "2026-06-13T14:39:00.541Z",
+      "updatedAt": "2026-06-16T13:58:20.017Z",
       "__v": 0
     },
     {
@@ -1263,7 +1233,7 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T14:40:43.126Z",
-      "updatedAt": "2026-06-13T14:40:43.126Z",
+      "updatedAt": "2026-06-15T21:41:35.643Z",
       "__v": 0
     },
     {
@@ -1359,12 +1329,12 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T14:44:41.926Z",
-      "updatedAt": "2026-06-13T14:44:41.926Z",
+      "updatedAt": "2026-06-15T16:26:46.333Z",
       "__v": 0
     },
     {
       "_id": "6a2d6cf8d5f005a18a4c8c62",
-      "name": "مانگۆ",
+      "name": "مۆهیتۆی مانگۆ",
       "price": 2500,
       "productCost": 1000,
       "image": "/uploads/products/product-1781361911988-644251586.jpg",
@@ -1375,12 +1345,12 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T14:45:12.012Z",
-      "updatedAt": "2026-06-13T14:45:12.012Z",
+      "updatedAt": "2026-06-14T13:11:52.244Z",
       "__v": 0
     },
     {
       "_id": "6a2d6d1ad5f005a18a4c8c67",
-      "name": "تایگەر",
+      "name": "مۆهیتۆی تایگەر",
       "price": 3000,
       "productCost": 1000,
       "image": "/uploads/products/product-1781361946659-966162355.jpg",
@@ -1391,7 +1361,7 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T14:45:46.735Z",
-      "updatedAt": "2026-06-13T14:45:46.735Z",
+      "updatedAt": "2026-06-15T22:28:23.099Z",
       "__v": 0
     },
     {
@@ -1439,7 +1409,7 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T14:56:42.389Z",
-      "updatedAt": "2026-06-13T14:56:42.389Z",
+      "updatedAt": "2026-06-16T14:33:05.089Z",
       "__v": 0
     },
     {
@@ -1455,7 +1425,7 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T14:57:12.035Z",
-      "updatedAt": "2026-06-13T14:57:12.035Z",
+      "updatedAt": "2026-06-15T20:56:36.648Z",
       "__v": 0
     },
     {
@@ -1471,7 +1441,7 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T14:57:48.895Z",
-      "updatedAt": "2026-06-13T14:57:48.895Z",
+      "updatedAt": "2026-06-16T09:52:15.629Z",
       "__v": 0
     },
     {
@@ -1487,7 +1457,7 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T14:59:20.077Z",
-      "updatedAt": "2026-06-13T14:59:20.077Z",
+      "updatedAt": "2026-06-16T14:14:41.784Z",
       "__v": 0
     },
     {
@@ -1503,7 +1473,7 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T15:01:42.822Z",
-      "updatedAt": "2026-06-13T15:01:42.822Z",
+      "updatedAt": "2026-06-15T22:34:48.202Z",
       "__v": 0
     },
     {
@@ -1514,12 +1484,12 @@
       "image": "/uploads/products/product-1781371959030-96967265.jpg",
       "category": {
         "_id": "6a2c2e18086297589c3d6e27",
-        "name": "Bakery"
+        "name": "بەیکەری"
       },
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T17:32:39.218Z",
-      "updatedAt": "2026-06-13T17:32:39.218Z",
+      "updatedAt": "2026-06-15T13:49:29.110Z",
       "__v": 0
     },
     {
@@ -1530,7 +1500,7 @@
       "image": "/uploads/products/product-1781372045828-683765855.jpg",
       "category": {
         "_id": "6a2c2e18086297589c3d6e27",
-        "name": "Bakery"
+        "name": "بەیکەری"
       },
       "department": "kitchen",
       "isAvailable": true,
@@ -1546,7 +1516,7 @@
       "image": "/uploads/products/product-1781372097303-565869588.jpg",
       "category": {
         "_id": "6a2c2e18086297589c3d6e27",
-        "name": "Bakery"
+        "name": "بەیکەری"
       },
       "department": "kitchen",
       "isAvailable": true,
@@ -1562,7 +1532,7 @@
       "image": "/uploads/products/product-1781372147777-522221890.jpg",
       "category": {
         "_id": "6a2c2e18086297589c3d6e27",
-        "name": "Bakery"
+        "name": "بەیکەری"
       },
       "department": "kitchen",
       "isAvailable": true,
@@ -1578,12 +1548,12 @@
       "image": "/uploads/products/product-1781372187384-782633050.jpg",
       "category": {
         "_id": "6a2c2e18086297589c3d6e27",
-        "name": "Bakery"
+        "name": "بەیکەری"
       },
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T17:36:27.475Z",
-      "updatedAt": "2026-06-13T17:36:27.475Z",
+      "updatedAt": "2026-06-15T15:43:11.264Z",
       "__v": 0
     },
     {
@@ -1594,12 +1564,12 @@
       "image": "/uploads/products/product-1781372215626-504523730.jpg",
       "category": {
         "_id": "6a2c2e18086297589c3d6e27",
-        "name": "Bakery"
+        "name": "بەیکەری"
       },
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T17:36:55.729Z",
-      "updatedAt": "2026-06-13T17:36:55.729Z",
+      "updatedAt": "2026-06-16T14:09:17.990Z",
       "__v": 0
     },
     {
@@ -1610,12 +1580,12 @@
       "image": "/uploads/products/product-1781372259232-957044570.jpg",
       "category": {
         "_id": "6a2c2e18086297589c3d6e27",
-        "name": "Bakery"
+        "name": "بەیکەری"
       },
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T17:37:39.272Z",
-      "updatedAt": "2026-06-13T17:37:39.272Z",
+      "updatedAt": "2026-06-15T15:32:01.522Z",
       "__v": 0
     },
     {
@@ -1626,12 +1596,12 @@
       "image": "/uploads/products/product-1781372305218-764300551.jpg",
       "category": {
         "_id": "6a2c2e18086297589c3d6e27",
-        "name": "Bakery"
+        "name": "بەیکەری"
       },
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T17:38:25.461Z",
-      "updatedAt": "2026-06-13T19:33:46.085Z",
+      "updatedAt": "2026-06-16T13:58:20.017Z",
       "__v": 0
     },
     {
@@ -1642,7 +1612,7 @@
       "image": "/uploads/products/product-1781372393068-960289212.jpg",
       "category": {
         "_id": "6a2c2e18086297589c3d6e27",
-        "name": "Bakery"
+        "name": "بەیکەری"
       },
       "department": "kitchen",
       "isAvailable": true,
@@ -1658,12 +1628,12 @@
       "image": "/uploads/products/product-1781372438018-35826951.jpg",
       "category": {
         "_id": "6a2c2e18086297589c3d6e27",
-        "name": "Bakery"
+        "name": "بەیکەری"
       },
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T17:40:38.243Z",
-      "updatedAt": "2026-06-13T17:40:38.243Z",
+      "updatedAt": "2026-06-15T15:44:15.340Z",
       "__v": 0
     },
     {
@@ -1674,28 +1644,28 @@
       "image": "/uploads/products/product-1781372517039-414676498.jpg",
       "category": {
         "_id": "6a2c2e18086297589c3d6e27",
-        "name": "Bakery"
+        "name": "بەیکەری"
       },
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T17:41:57.101Z",
-      "updatedAt": "2026-06-13T17:41:57.101Z",
+      "updatedAt": "2026-06-15T14:09:48.144Z",
       "__v": 0
     },
     {
       "_id": "6a2d968f67fd10f54e0ea183",
-      "name": "وافڵی موشەکەل",
+      "name": "وەسەتوافڵی موشەکەل",
       "price": 4000,
       "productCost": 1500,
       "image": "/uploads/products/product-1781372559038-269838708.jpg",
       "category": {
         "_id": "6a2c2e18086297589c3d6e27",
-        "name": "Bakery"
+        "name": "بەیکەری"
       },
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T17:42:39.175Z",
-      "updatedAt": "2026-06-13T17:42:39.175Z",
+      "updatedAt": "2026-06-16T07:54:31.382Z",
       "__v": 0
     },
     {
@@ -1743,7 +1713,7 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T18:26:42.315Z",
-      "updatedAt": "2026-06-13T18:26:42.315Z",
+      "updatedAt": "2026-06-15T16:05:14.288Z",
       "__v": 0
     },
     {
@@ -1765,7 +1735,7 @@
     {
       "_id": "6a2da11c67fd10f54e0ea1c5",
       "name": "مۆز",
-      "price": 200,
+      "price": 2000,
       "productCost": 1000,
       "image": "/uploads/products/product-1781375259964-533829075.jpg",
       "category": {
@@ -1775,7 +1745,7 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T18:27:40.014Z",
-      "updatedAt": "2026-06-13T18:27:40.014Z",
+      "updatedAt": "2026-06-16T14:48:18.275Z",
       "__v": 0
     },
     {
@@ -1791,7 +1761,7 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T18:28:19.356Z",
-      "updatedAt": "2026-06-13T18:36:28.323Z",
+      "updatedAt": "2026-06-15T19:24:01.503Z",
       "__v": 0
     },
     {
@@ -1807,7 +1777,7 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T18:28:49.189Z",
-      "updatedAt": "2026-06-13T18:28:49.189Z",
+      "updatedAt": "2026-06-15T15:28:03.520Z",
       "__v": 0
     },
     {
@@ -1839,7 +1809,7 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T18:30:40.698Z",
-      "updatedAt": "2026-06-13T18:30:40.698Z",
+      "updatedAt": "2026-06-16T13:48:30.451Z",
       "__v": 0
     },
     {
@@ -1855,12 +1825,12 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T18:31:11.020Z",
-      "updatedAt": "2026-06-13T18:31:11.020Z",
+      "updatedAt": "2026-06-16T13:48:30.450Z",
       "__v": 0
     },
     {
       "_id": "6a2da21767fd10f54e0ea1e3",
-      "name": "لیمۆ نەعنا",
+      "name": "فرێش لیمۆ نەعنا",
       "price": 2500,
       "productCost": 1000,
       "image": "/uploads/products/product-1781375511090-43461793.jpg",
@@ -1871,7 +1841,7 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T18:31:51.173Z",
-      "updatedAt": "2026-06-13T18:31:51.173Z",
+      "updatedAt": "2026-06-15T14:47:46.094Z",
       "__v": 0
     },
     {
@@ -1887,7 +1857,7 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T18:32:35.767Z",
-      "updatedAt": "2026-06-13T18:32:35.767Z",
+      "updatedAt": "2026-06-16T13:58:20.017Z",
       "__v": 0
     },
     {
@@ -1935,14 +1905,14 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T18:34:19.571Z",
-      "updatedAt": "2026-06-13T18:34:19.571Z",
+      "updatedAt": "2026-06-16T13:48:30.450Z",
       "__v": 0
     },
     {
       "_id": "6a2da41f67fd10f54e0ea250",
       "name": "پرتەقاڵ",
       "price": 2000,
-      "productCost": 1000,
+      "productCost": 11000,
       "image": "/uploads/products/product-1781376031250-973969380.jpg",
       "category": {
         "_id": "6a2c2e4d086297589c3d6e2f",
@@ -1951,7 +1921,7 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T18:40:31.372Z",
-      "updatedAt": "2026-06-13T18:40:31.372Z",
+      "updatedAt": "2026-06-15T19:52:44.430Z",
       "__v": 0
     },
     {
@@ -1967,7 +1937,7 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T18:44:55.412Z",
-      "updatedAt": "2026-06-13T18:44:55.412Z",
+      "updatedAt": "2026-06-15T21:41:37.256Z",
       "__v": 0
     },
     {
@@ -1983,7 +1953,7 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T18:45:36.942Z",
-      "updatedAt": "2026-06-13T18:45:36.942Z",
+      "updatedAt": "2026-06-15T15:32:01.522Z",
       "__v": 0
     },
     {
@@ -1999,12 +1969,12 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T18:47:35.732Z",
-      "updatedAt": "2026-06-13T18:47:35.732Z",
+      "updatedAt": "2026-06-15T19:44:43.146Z",
       "__v": 0
     },
     {
       "_id": "6a2da7d867fd10f54e0ea313",
-      "name": "گرانادین",
+      "name": "مۆهیتۆی گرانادین",
       "price": 2500,
       "productCost": 1000,
       "image": "/uploads/products/product-1781376984486-786113905.jpg",
@@ -2015,12 +1985,12 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T18:56:24.576Z",
-      "updatedAt": "2026-06-13T18:56:24.576Z",
+      "updatedAt": "2026-06-14T13:10:44.227Z",
       "__v": 0
     },
     {
       "_id": "6a2da83667fd10f54e0ea330",
-      "name": "سپێشەڵ",
+      "name": "مۆهیتۆی سپێشەڵ",
       "price": 3000,
       "productCost": 1000,
       "image": "/uploads/products/product-1781377078335-307009210.jpg",
@@ -2031,7 +2001,103 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T18:57:58.388Z",
-      "updatedAt": "2026-06-13T18:57:58.388Z",
+      "updatedAt": "2026-06-14T16:58:20.254Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2febb8cb8442dfd34cc721",
+      "name": "فراپێ یۆنانی",
+      "price": 2500,
+      "productCost": 1000,
+      "image": "/uploads/products/product-1781525431823-215559753.jpg",
+      "category": {
+        "_id": "6a2c4d0e724c7913b8f8b633",
+        "name": "کۆفی سارد"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-15T12:10:32.030Z",
+      "updatedAt": "2026-06-16T14:14:41.784Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2fefbfcb8442dfd34cc793",
+      "name": "ئابی لاتێ دەبڵ",
+      "price": 5000,
+      "productCost": 1000,
+      "image": "/uploads/products/product-1781526463160-662264445.jpg",
+      "category": {
+        "_id": "6a2c4d0e724c7913b8f8b633",
+        "name": "کۆفی سارد"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-15T12:27:43.310Z",
+      "updatedAt": "2026-06-15T13:49:29.110Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a2ffb04cb8442dfd34cc7fc",
+      "name": "شوکلاتەی سارد",
+      "price": 2500,
+      "productCost": 1000,
+      "image": "/uploads/products/product-1781529348579-239274101.jpg",
+      "category": {
+        "_id": "6a2c4d0e724c7913b8f8b633",
+        "name": "کۆفی سارد"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-15T13:15:48.688Z",
+      "updatedAt": "2026-06-16T14:33:05.089Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a3012f6cb8442dfd34cca44",
+      "name": "دۆدرمەی شیر",
+      "price": 1000,
+      "productCost": 500,
+      "image": "/uploads/products/product-1781535478630-620361333.jpg",
+      "category": {
+        "_id": "6a2d624bd5f005a18a4c8b0f",
+        "name": "مێڵک شەیک"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-15T14:57:58.841Z",
+      "updatedAt": "2026-06-15T15:12:36.398Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a301cf5cb8442dfd34ccb72",
+      "name": "بلو کاراسۆ",
+      "price": 2500,
+      "productCost": 1000,
+      "image": "/uploads/products/product-1781538037190-656006219.jpg",
+      "category": {
+        "_id": "6a2d651fd5f005a18a4c8b8c",
+        "name": "مۆهیتۆ"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-15T15:40:37.323Z",
+      "updatedAt": "2026-06-15T15:41:03.627Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a3050e963c85850ca929d73",
+      "name": "شەیک ئۆریۆ",
+      "price": 3500,
+      "productCost": 1000,
+      "image": "/uploads/products/product-1781551337220-362129773.jpg",
+      "category": {
+        "_id": "6a2d624bd5f005a18a4c8b0f",
+        "name": "مێڵک شەیک"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-15T19:22:17.285Z",
+      "updatedAt": "2026-06-15T19:45:03.906Z",
       "__v": 0
     }
   ]
