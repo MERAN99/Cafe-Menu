@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-16T14:49:05.490Z",
+  "updatedAt": "2026-06-17T14:50:22.061Z",
   "categories": [
     {
       "_id": "6a2c2e18086297589c3d6e27",
@@ -65,15 +65,15 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-12T17:31:50.530Z",
-      "updatedAt": "2026-06-16T13:58:20.017Z",
+      "updatedAt": "2026-06-16T15:38:03.673Z",
       "__v": 0
     },
     {
       "_id": "6a2c494c724c7913b8f8b4a6",
       "name": "ئەنەناس",
-      "price": 2000,
-      "productCost": 1,
-      "image": "/uploads/products/product-1781287244548-495321148.jpg",
+      "price": 3000,
+      "productCost": 1000,
+      "image": "/uploads/products/product-1781707812124-334858896.jpg",
       "category": {
         "_id": "6a2c2e4d086297589c3d6e2f",
         "name": "شەربەتی فرێش"
@@ -81,7 +81,7 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-12T18:00:44.604Z",
-      "updatedAt": "2026-06-15T19:44:43.146Z",
+      "updatedAt": "2026-06-17T14:50:12.200Z",
       "__v": 0
     },
     {
@@ -97,7 +97,7 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-12T18:25:43.836Z",
-      "updatedAt": "2026-06-16T14:48:53.040Z",
+      "updatedAt": "2026-06-16T23:14:49.096Z",
       "__v": 0
     },
     {
@@ -113,7 +113,7 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-12T18:48:31.638Z",
-      "updatedAt": "2026-06-16T14:33:05.089Z",
+      "updatedAt": "2026-06-16T19:36:57.276Z",
       "__v": 0
     },
     {
@@ -129,7 +129,7 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-12T19:47:44.987Z",
-      "updatedAt": "2026-06-15T15:35:18.494Z",
+      "updatedAt": "2026-06-16T15:38:03.673Z",
       "__v": 0
     },
     {
@@ -161,7 +161,7 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-12T20:32:49.010Z",
-      "updatedAt": "2026-06-15T21:41:37.256Z",
+      "updatedAt": "2026-06-16T16:58:17.276Z",
       "__v": 0
     },
     {
@@ -177,7 +177,7 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-12T20:33:27.729Z",
-      "updatedAt": "2026-06-12T20:33:27.729Z",
+      "updatedAt": "2026-06-16T16:16:53.651Z",
       "__v": 0
     },
     {
@@ -241,7 +241,7 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T08:36:54.107Z",
-      "updatedAt": "2026-06-13T08:36:54.107Z",
+      "updatedAt": "2026-06-16T18:40:13.129Z",
       "__v": 0
     },
     {
@@ -289,7 +289,7 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T08:46:28.952Z",
-      "updatedAt": "2026-06-15T16:21:57.147Z",
+      "updatedAt": "2026-06-16T15:38:03.673Z",
       "__v": 0
     },
     {
@@ -305,7 +305,7 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T08:47:18.904Z",
-      "updatedAt": "2026-06-16T13:18:40.647Z",
+      "updatedAt": "2026-06-16T15:38:03.673Z",
       "__v": 0
     },
     {
@@ -321,7 +321,7 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T08:53:30.171Z",
-      "updatedAt": "2026-06-15T21:31:42.603Z",
+      "updatedAt": "2026-06-16T23:14:49.096Z",
       "__v": 0
     },
     {
@@ -337,7 +337,7 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T09:04:18.878Z",
-      "updatedAt": "2026-06-15T16:05:14.288Z",
+      "updatedAt": "2026-06-17T14:28:11.397Z",
       "__v": 0
     },
     {
@@ -353,7 +353,7 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T09:04:49.524Z",
-      "updatedAt": "2026-06-15T19:00:16.744Z",
+      "updatedAt": "2026-06-16T21:52:30.045Z",
       "__v": 0
     },
     {
@@ -369,7 +369,7 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T09:05:23.856Z",
-      "updatedAt": "2026-06-15T15:35:43.722Z",
+      "updatedAt": "2026-06-17T14:14:29.593Z",
       "__v": 0
     },
     {
@@ -401,7 +401,7 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T09:06:34.900Z",
-      "updatedAt": "2026-06-13T09:06:34.900Z",
+      "updatedAt": "2026-06-17T14:14:29.593Z",
       "__v": 0
     },
     {
@@ -465,7 +465,7 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T10:49:38.094Z",
-      "updatedAt": "2026-06-15T21:26:47.624Z",
+      "updatedAt": "2026-06-16T15:41:42.414Z",
       "__v": 0
     },
     {
@@ -593,7 +593,7 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T10:57:17.178Z",
-      "updatedAt": "2026-06-15T16:37:50.908Z",
+      "updatedAt": "2026-06-17T13:34:55.755Z",
       "__v": 0
     },
     {
@@ -705,7 +705,7 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T11:07:10.789Z",
-      "updatedAt": "2026-06-15T19:06:18.919Z",
+      "updatedAt": "2026-06-16T19:05:55.399Z",
       "__v": 0
     },
     {
@@ -817,7 +817,7 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T11:26:08.534Z",
-      "updatedAt": "2026-06-14T15:29:26.230Z",
+      "updatedAt": "2026-06-17T14:31:47.332Z",
       "__v": 0
     },
     {
@@ -865,7 +865,7 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T14:01:40.630Z",
-      "updatedAt": "2026-06-15T16:09:24.077Z",
+      "updatedAt": "2026-06-16T15:15:32.915Z",
       "__v": 0
     },
     {
@@ -1009,7 +1009,7 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T14:07:01.913Z",
-      "updatedAt": "2026-06-16T07:54:31.382Z",
+      "updatedAt": "2026-06-16T20:36:11.236Z",
       "__v": 0
     },
     {
@@ -1329,7 +1329,7 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T14:44:41.926Z",
-      "updatedAt": "2026-06-15T16:26:46.333Z",
+      "updatedAt": "2026-06-16T19:36:57.276Z",
       "__v": 0
     },
     {
@@ -1361,7 +1361,7 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T14:45:46.735Z",
-      "updatedAt": "2026-06-15T22:28:23.099Z",
+      "updatedAt": "2026-06-17T10:27:13.681Z",
       "__v": 0
     },
     {
@@ -1409,7 +1409,7 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T14:56:42.389Z",
-      "updatedAt": "2026-06-16T14:33:05.089Z",
+      "updatedAt": "2026-06-16T15:41:42.414Z",
       "__v": 0
     },
     {
@@ -1425,7 +1425,7 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T14:57:12.035Z",
-      "updatedAt": "2026-06-15T20:56:36.648Z",
+      "updatedAt": "2026-06-17T12:24:33.659Z",
       "__v": 0
     },
     {
@@ -1441,7 +1441,7 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T14:57:48.895Z",
-      "updatedAt": "2026-06-16T09:52:15.629Z",
+      "updatedAt": "2026-06-17T13:29:38.242Z",
       "__v": 0
     },
     {
@@ -1457,7 +1457,7 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T14:59:20.077Z",
-      "updatedAt": "2026-06-16T14:14:41.784Z",
+      "updatedAt": "2026-06-16T15:23:14.360Z",
       "__v": 0
     },
     {
@@ -1473,7 +1473,7 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T15:01:42.822Z",
-      "updatedAt": "2026-06-15T22:34:48.202Z",
+      "updatedAt": "2026-06-17T13:05:28.521Z",
       "__v": 0
     },
     {
@@ -1489,7 +1489,7 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T17:32:39.218Z",
-      "updatedAt": "2026-06-15T13:49:29.110Z",
+      "updatedAt": "2026-06-17T14:41:04.565Z",
       "__v": 0
     },
     {
@@ -1505,7 +1505,7 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T17:34:05.938Z",
-      "updatedAt": "2026-06-13T17:34:05.938Z",
+      "updatedAt": "2026-06-16T15:41:42.414Z",
       "__v": 0
     },
     {
@@ -1521,7 +1521,7 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T17:34:57.401Z",
-      "updatedAt": "2026-06-13T17:34:57.401Z",
+      "updatedAt": "2026-06-16T19:30:26.206Z",
       "__v": 0
     },
     {
@@ -1553,7 +1553,7 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T17:36:27.475Z",
-      "updatedAt": "2026-06-15T15:43:11.264Z",
+      "updatedAt": "2026-06-16T20:45:36.655Z",
       "__v": 0
     },
     {
@@ -1617,7 +1617,7 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T17:39:53.168Z",
-      "updatedAt": "2026-06-13T17:39:53.168Z",
+      "updatedAt": "2026-06-16T14:51:05.722Z",
       "__v": 0
     },
     {
@@ -1665,7 +1665,7 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T17:42:39.175Z",
-      "updatedAt": "2026-06-16T07:54:31.382Z",
+      "updatedAt": "2026-06-17T13:29:38.242Z",
       "__v": 0
     },
     {
@@ -1697,7 +1697,7 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T18:25:47.044Z",
-      "updatedAt": "2026-06-13T18:25:47.044Z",
+      "updatedAt": "2026-06-17T14:41:04.565Z",
       "__v": 0
     },
     {
@@ -1745,7 +1745,7 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T18:27:40.014Z",
-      "updatedAt": "2026-06-16T14:48:18.275Z",
+      "updatedAt": "2026-06-17T13:34:55.755Z",
       "__v": 0
     },
     {
@@ -1809,7 +1809,7 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T18:30:40.698Z",
-      "updatedAt": "2026-06-16T13:48:30.451Z",
+      "updatedAt": "2026-06-16T21:15:28.355Z",
       "__v": 0
     },
     {
@@ -1825,7 +1825,7 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T18:31:11.020Z",
-      "updatedAt": "2026-06-16T13:48:30.450Z",
+      "updatedAt": "2026-06-16T15:31:33.946Z",
       "__v": 0
     },
     {
@@ -1841,7 +1841,7 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T18:31:51.173Z",
-      "updatedAt": "2026-06-15T14:47:46.094Z",
+      "updatedAt": "2026-06-16T20:48:54.925Z",
       "__v": 0
     },
     {
@@ -1905,7 +1905,7 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T18:34:19.571Z",
-      "updatedAt": "2026-06-16T13:48:30.450Z",
+      "updatedAt": "2026-06-16T19:42:18.728Z",
       "__v": 0
     },
     {
@@ -1937,7 +1937,7 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T18:44:55.412Z",
-      "updatedAt": "2026-06-15T21:41:37.256Z",
+      "updatedAt": "2026-06-17T14:35:00.486Z",
       "__v": 0
     },
     {
@@ -1969,7 +1969,7 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T18:47:35.732Z",
-      "updatedAt": "2026-06-15T19:44:43.146Z",
+      "updatedAt": "2026-06-16T16:08:31.789Z",
       "__v": 0
     },
     {
@@ -1985,7 +1985,7 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T18:56:24.576Z",
-      "updatedAt": "2026-06-14T13:10:44.227Z",
+      "updatedAt": "2026-06-16T21:33:02.132Z",
       "__v": 0
     },
     {
@@ -2001,7 +2001,7 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-13T18:57:58.388Z",
-      "updatedAt": "2026-06-14T16:58:20.254Z",
+      "updatedAt": "2026-06-16T19:14:27.078Z",
       "__v": 0
     },
     {
@@ -2017,7 +2017,7 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-15T12:10:32.030Z",
-      "updatedAt": "2026-06-16T14:14:41.784Z",
+      "updatedAt": "2026-06-17T14:31:59.709Z",
       "__v": 0
     },
     {
@@ -2049,7 +2049,7 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-15T13:15:48.688Z",
-      "updatedAt": "2026-06-16T14:33:05.089Z",
+      "updatedAt": "2026-06-16T20:45:36.655Z",
       "__v": 0
     },
     {
@@ -2065,7 +2065,7 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-15T14:57:58.841Z",
-      "updatedAt": "2026-06-15T15:12:36.398Z",
+      "updatedAt": "2026-06-17T12:50:34.617Z",
       "__v": 0
     },
     {
@@ -2081,7 +2081,7 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-15T15:40:37.323Z",
-      "updatedAt": "2026-06-15T15:41:03.627Z",
+      "updatedAt": "2026-06-17T12:24:33.659Z",
       "__v": 0
     },
     {
@@ -2097,7 +2097,39 @@
       "department": "kitchen",
       "isAvailable": true,
       "createdAt": "2026-06-15T19:22:17.285Z",
-      "updatedAt": "2026-06-15T19:45:03.906Z",
+      "updatedAt": "2026-06-17T14:04:06.417Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a31635763c85850ca92a29d",
+      "name": "ئایس ئەمریکانۆی دەبڵ",
+      "price": 4000,
+      "productCost": 1000,
+      "image": "/uploads/products/product-1781621754016-983776714.jpg",
+      "category": {
+        "_id": "6a2c4d0e724c7913b8f8b633",
+        "name": "کۆفی سارد"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-16T14:53:12.001Z",
+      "updatedAt": "2026-06-16T14:55:54.064Z",
+      "__v": 0
+    },
+    {
+      "_id": "6a317a9d63c85850ca92a510",
+      "name": "نسکافە",
+      "price": 2000,
+      "productCost": 1000,
+      "image": "/uploads/products/product-1781627549317-924154003.jpg",
+      "category": {
+        "_id": "6a2c4cf4724c7913b8f8b62f",
+        "name": "کۆفی گەرم"
+      },
+      "department": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2026-06-16T16:32:29.357Z",
+      "updatedAt": "2026-06-16T16:58:17.276Z",
       "__v": 0
     }
   ]
